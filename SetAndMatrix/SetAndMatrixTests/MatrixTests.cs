@@ -5,7 +5,7 @@ using SetAndMatrix.Services.Matrix;
 
 public class MatrixTests
 {
-    private const string Path = "D:\\SetAndMatrix\\SetAndMatrix\\SetAndMatrixTests\\MatrixData\\";
+    private const string Path = "D:\\ConsoleProjects\\SetAndMatrix\\SetAndMatrixTests\\MatrixData\\";
 
     [Fact]
     public void LoadFromFile_ReturnsMatrix_Valid2x2()
@@ -21,7 +21,7 @@ public class MatrixTests
             [1, 1] = 4
         };
 
-        Assert.True(fromFile == expected);
+        Assert.Equal(expected,fromFile);
     }
 
     [Fact]
@@ -64,9 +64,9 @@ public class MatrixTests
     }
 
     [Fact]
-    public void LoadFromFile_ThrowsInvalidOperation_MalformedJagged()
+    public void LoadFromFile_ThrowsInvalidOperation_BadFormat()
     {
-        string filePath = System.IO.Path.Combine(Path, "bad_jagged.txt");
+        string filePath = System.IO.Path.Combine(Path, "bad_format.txt");
         Assert.Throws<InvalidOperationException>(() => Matrix.LoadFromFile(filePath));
     }
 
