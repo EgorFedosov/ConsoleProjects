@@ -1,7 +1,6 @@
 namespace SetAndMatrixTests;
 
-using Xunit;
-using SetAndMatrix.Models.Multiset;
+using SetAndMatrix.Models;
 
 public class MultisetTests
 {
@@ -22,18 +21,6 @@ public class MultisetTests
         Assert.Null(element.Element);
     }
 
-    [Fact]
-    public void Multiset_Add_AddsElementCorrectly()
-    {
-        Multiset multiset = new Multiset();
-        MultisetElement element1 = new MultisetElement("a");
-        MultisetElement element2 = new MultisetElement("b");
-
-        multiset.Add(element1);
-        multiset.Add(element2);
-
-        Assert.Equal("{a,b}", multiset.ToString());
-    }
 
     [Fact]
     public void Multiset_ToString_HandlesEmptyMultiset()
@@ -43,30 +30,27 @@ public class MultisetTests
     }
 
     [Fact]
-    public void Multiset_ToString_HandlesNestedMultiset()
+    public void Multiset_Parse_HandlesNestedMultiset()
     {
-        Multiset innerMultiset = new Multiset();
-        innerMultiset.Add(new MultisetElement("x"));
-        innerMultiset.Add(new MultisetElement("y"));
-
-        Multiset outerMultiset = new Multiset();
-        outerMultiset.Add(new MultisetElement("a"));
-        outerMultiset.Add(new MultisetElement(innerMultiset));
-
-        Assert.Equal("{a,{x,y}}", outerMultiset.ToString());
+        Multiset multiset = new Multiset();
+        Multiset parsed = multiset.Parse("{a,{x,y}}");
+        Assert.Equal("{a,{x,y}}", parsed.ToString());
     }
 
     [Fact]
-    public void Multiset_ToString_HandlesMixedElements()
+    public void Multiset_Parse_HandlesMixedElements()
     {
-        Multiset innerMultiset = new Multiset();
-        innerMultiset.Add(new MultisetElement("1"));
-
         Multiset multiset = new Multiset();
-        multiset.Add(new MultisetElement("alpha"));
-        multiset.Add(new MultisetElement(innerMultiset));
-        multiset.Add(new MultisetElement("beta"));
-
-        Assert.Equal("{alpha,{1},beta}", multiset.ToString());
+        Multiset parsed = multiset.Parse("{alpha,{1},beta}");
+        Assert.Equal("{alpha,{1},beta}", parsed.ToString());
     }
-} 
+
+    [Fact]
+    public void Multiset_Parse_ThrowsOnInvalidInput()
+    {
+        Multiset multiset = new Multiset();
+        Assert.Throws<InvalidOperationException>(() => multiset.Parse("{a,,b}"));
+        Assert.Throws<InvalidOperationException>(() => multiset.Parse("{a,b"));
+        Assert.Throws<InvalidOperationException>(() => multiset.Parse("a,b}"));
+    }
+}
