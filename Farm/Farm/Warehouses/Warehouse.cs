@@ -12,16 +12,19 @@ public class Warehouse : Place
     {
         _products[SeedKey] = 10000;
     }
+    
 
     public void Store(Product product)
     {
-        product.HandleAfterCollection();
-        _products.TryAdd(product, 0);
-        _products[product] += (uint)product.Amount;
+        if (product == null)
+            throw new ArgumentNullException(nameof(product));
 
-        _products.TryAdd(SeedKey, 0);
+        product.HandleAfterCollection();
+
+        _products[product] = _products.GetValueOrDefault(product) + (uint)product.Amount;
         _products[SeedKey] += (uint)Math.Floor(product.Amount * 0.1);
     }
+
 
     public uint TakeSeeds(uint requestedCount)
     {

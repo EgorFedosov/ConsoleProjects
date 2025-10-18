@@ -2,34 +2,24 @@ using Farm.Products;
 using Farm.Animals;
 using Farm.Places;
 using Farm.Exceptions;
+using static FarmTests.TestUtils;
 
 
 namespace FarmTests;
 
 public class AnimalTest
 {
-    private string CaptureConsoleOutput(Action action)
-    {
-        var originalOut = Console.Out;
-        using var sw = new StringWriter();
-        Console.SetOut(sw);
-
-        action();
-
-        Console.SetOut(originalOut);
-        return sw.ToString();
-    }
-
-
+  
     [Fact]
     public void Animal_Creation_PrintsName()
     {
+        Chicken? chicken = null;
         var output = CaptureConsoleOutput(() =>
         {
-            var chicken = new Chicken();
+             chicken = new Chicken();
         });
 
-        Assert.Contains("Chicken", output);
+        Assert.Contains($"{chicken?.Name}", output);
     }
 
     [Fact]
