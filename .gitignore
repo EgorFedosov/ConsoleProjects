@@ -6,6 +6,8 @@
 **/obj/
 **/*.txt
 !SetAndMatrix/SetAndMatrixTests/MatrixData/*.txt  
+!MiniCrm/*.txt  
 **/*.json
 **/.id
 **/.yaml
+AirportSystem/*.md
