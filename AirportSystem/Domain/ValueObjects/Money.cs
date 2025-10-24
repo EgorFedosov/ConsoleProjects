@@ -3,7 +3,7 @@ using AirportSystem.Domain.Exceptions.Money;
 
 namespace AirportSystem.Domain.ValueObjects;
 
-/// <summary>Value Object для денег. Иммутабелен.</summary>
+/// <summary> Value Object, хранит тип валюты и количество /// </summary>
 public sealed class Money : IEquatable<Money>
 {
     public decimal Amount { get; }
@@ -55,5 +55,3 @@ public sealed class Money : IEquatable<Money>
     public static bool operator !=(Money? left, Money? right)
         => !Equals(left, right);
 }
-
-
