@@ -54,4 +54,18 @@ public sealed class Money : IEquatable<Money>
 
     public static bool operator !=(Money? left, Money? right)
         => !Equals(left, right);
+
+    public static Money operator +(Money a, Money b)
+    {
+        if (a.Currency != b.Currency)
+            throw new InvalidOperationException();
+        return new Money(a.Amount + b.Amount, a.Currency);
+    }
+
+    public static Money operator -(Money a, Money b)
+    {
+        if (a.Currency != b.Currency)
+            throw new InvalidOperationException();
+        return new Money(a.Amount - b.Amount, a.Currency);
+    }
 }

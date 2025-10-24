@@ -9,4 +9,4 @@ public interface IPerson
     int Age { get; }
     Gender Gender { get; }
     Money Money { get; }
-}
+}   

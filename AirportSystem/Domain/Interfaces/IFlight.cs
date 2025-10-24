@@ -5,8 +5,11 @@ namespace AirportSystem.Domain.Interfaces;
 public interface IFlight
 {
     IAirplane Airplane { get; }
-    List<IPerson> Crew { get; }
-    List<IPassenger> Passengers { get; }
+    IReadOnlyCollection<IPilot> Crew { get; }
+    IReadOnlyCollection<IPassenger> Passengers { get; }
     Route Route { get; }
     Money TicketPrice { get; }
+
+    void AddPassenger(IPassenger passenger);
+    void UpdateTicketPrice(Money newPrice);
 }

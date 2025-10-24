@@ -6,9 +6,9 @@ namespace AirportSystem.Domain.Interfaces;
 public interface IAirplane
 {
     List<IPassenger> Passengers { get; }
-    List<IPerson> Crew { get; }
+    List<IPilot> Crew { get; }
     string Model { get; }
-    int Capacity { get; }
+    uint Capacity { get; }
     Money Price { get; }
-    AirplaneStatus Status { get; set; }
+    AirplaneStatus? Status { get; set; }
 }
