@@ -11,7 +11,6 @@
       <Folder Include="Domain\Aggregates\" />
       <Folder Include="Domain\Entities\Airplanes\" />
       <Folder Include="Domain\Entities\Persons\" />
-      <Folder Include="Domain\Interfaces\" />
     </ItemGroup>
 
 </Project>
