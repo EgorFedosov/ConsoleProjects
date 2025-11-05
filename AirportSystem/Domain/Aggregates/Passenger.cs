@@ -12,10 +12,19 @@ public class Passenger(string name, int age, Gender gender, Money money, List<IT
     public List<ITicket> Tickets { get; } = tickets ?? [];
     public Baggage? Baggage { get; private set; } = baggage;
 
-    public void AddTicket(ITicket ticket)
+    public bool AddTicket(ITicket ticket)
     {
         ArgumentNullException.ThrowIfNull(ticket);
-        Tickets.Add(ticket);
+        if (Pay(ticket.Money) && baggage != null && ticket.IsBaggageAllowed(baggage))
+        {
+            Console.WriteLine("Ticket has been paid");
+            ticket.Status = TicketStatus.Paid;
+            Tickets.Add(ticket);
+            return true;
+        }
+
+        Console.WriteLine("An error occured during payment");
+        return false;
     }
 
     public void AssignBaggage(Baggage baggage)

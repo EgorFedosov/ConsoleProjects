@@ -6,6 +6,6 @@ public interface IPassenger : IPerson
 {
     List<ITicket> Tickets { get; }
     Baggage? Baggage { get; }
-    public void AddTicket(ITicket ticket);
+    public bool AddTicket(ITicket ticket);
     public void AssignBaggage(Baggage baggage);
 }

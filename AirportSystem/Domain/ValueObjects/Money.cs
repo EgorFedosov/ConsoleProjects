@@ -6,7 +6,7 @@ namespace AirportSystem.Domain.ValueObjects;
 /// <summary> Value Object, хранит тип валюты и количество /// </summary>
 public sealed class Money : IEquatable<Money>
 {
-    public decimal Amount { get; }
+    public decimal Amount { get; set; }
     public Currency Currency { get; }
 
     public Money(decimal amount, Currency currency)
@@ -16,6 +16,11 @@ public sealed class Money : IEquatable<Money>
 
         Amount = amount;
         Currency = currency;
+    }
+
+    public void Print()
+    {
+        Console.WriteLine($"Ammount : {Amount}, Currency: {Currency}");
     }
 
     public Money Add(Money other)

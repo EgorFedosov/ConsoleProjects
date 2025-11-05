@@ -2,7 +2,7 @@ namespace AirportSystem.Domain.Entities;
 
 public class Baggage : IEquatable<Baggage>
 {
-    private double WeightKg { get; }
+    public double WeightKg { get; }
 
     private const double Tolerance = 0.0001;
 

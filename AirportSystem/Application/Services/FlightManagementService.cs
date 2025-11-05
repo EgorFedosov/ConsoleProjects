@@ -10,7 +10,7 @@ public class FlightManagementService(AirportCompany company) : IFlightManagement
     public IFlight CreateFlight(IAirplane airplane, List<IPilot> crew, Route route, Money ticketPrice)
     {
         ArgumentNullException.ThrowIfNull(airplane);
-        ArgumentNullException.ThrowIfNull(route);
+        ArgumentNullException.ThrowIfNull(route);   
         ArgumentNullException.ThrowIfNull(ticketPrice);
         if (crew == null || crew.Count == 0) 
             throw new ArgumentException("Crew cannot be empty", nameof(crew));

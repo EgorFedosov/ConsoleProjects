@@ -7,6 +7,7 @@ namespace AirportSystem.Domain.Entities.Airplanes;
 public class Airplane(
     string model,
     uint capacity,
+    uint maxWeightBaggage,
     Money price,
     List<IPilot>? crew,
     List<IPassenger>? passengers,
@@ -19,4 +20,15 @@ public class Airplane(
     public uint Capacity { get; } = capacity;
     public Money Price { get; } = price;
     public AirplaneStatus? Status { get; set; } = status;
+
+    public uint MaxWeightBaggage { get; } =  maxWeightBaggage;
+
+    public void Print()
+    {
+        Console.WriteLine($"Airplane Model: {Model} ");
+        Console.Write(passengers == null
+            ? $"Available places: {Capacity}"
+            : $"Available places: {passengers.Count}/{Capacity}");
+        Console.Write($"Price: {Price}, Status: {Status}");
+    }
 }

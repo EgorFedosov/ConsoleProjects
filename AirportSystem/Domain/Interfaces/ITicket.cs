@@ -1,3 +1,4 @@
+using AirportSystem.Domain.Entities;
 using AirportSystem.Domain.Enums;
 using AirportSystem.Domain.ValueObjects;
 
@@ -7,6 +8,7 @@ public interface ITicket
 {
     IPassenger Passenger { get; }
     IFlight Flight { get; }
+    bool IsBaggageAllowed(Baggage baggage);
     TicketStatus Status { get; set; }
-    Money Price { get; }
+    Money Money { get; }
 }

@@ -8,5 +8,6 @@ public interface IPerson
     string Name { get; }
     int Age { get; }
     Gender Gender { get; }
-    Money Money { get; }
+    Money Money { get;  }
+    bool Pay(Money money);
 }   

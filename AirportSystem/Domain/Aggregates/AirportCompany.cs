@@ -4,7 +4,7 @@ using AirportSystem.Domain.ValueObjects;
 
 namespace AirportSystem.Domain.Aggregates;
 
-public  class AirportCompany(Money initialBalance) : IAirportCompany
+public class AirportCompany(Money initialBalance) : IAirportCompany
 {
     private readonly List<IAirplane> _airplanes = [];
     private readonly List<IPilot> _staff = [];
@@ -38,4 +38,12 @@ public  class AirportCompany(Money initialBalance) : IAirportCompany
         ArgumentNullException.ThrowIfNull(amount);
         Balance += amount;
     }
+
+    public void PrintAllFlights()
+    {
+        foreach (var flight in _flights)
+            flight.Print();
+    }
+    public IFlight? FindFlightById(Guid flightId)
+        => _flights.FirstOrDefault(f => f.FlightId == flightId);
 }

@@ -9,6 +9,8 @@ public interface IAirplane
     List<IPilot> Crew { get; }
     string Model { get; }
     uint Capacity { get; }
+    uint MaxWeightBaggage { get; }
     Money Price { get; }
     AirplaneStatus? Status { get; set; }
+    void Print();
 }

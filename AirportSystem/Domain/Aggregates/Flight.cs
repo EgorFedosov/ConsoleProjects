@@ -1,3 +1,5 @@
+using AirportSystem.Domain.Entities;
+using AirportSystem.Domain.Entities.Airplanes;
 using AirportSystem.Domain.Interfaces;
 using AirportSystem.Domain.ValueObjects;
 
@@ -13,7 +15,15 @@ public class Flight(IAirplane airplane, List<IPilot> crew, Route route, Money ti
     public IReadOnlyCollection<IPassenger> Passengers => _passengers.AsReadOnly();
     public Route Route { get; } = route;
     public Money TicketPrice { get; private set; } = ticketPrice;
+    public Guid FlightId { get; } = Guid.Empty;
 
+    public void Print()
+    {
+        Airplane.Print();
+        TicketPrice.Print();
+        Console.WriteLine($"Guid: {FlightId}");
+    }
+    
     public void AddPassenger(IPassenger passenger)
     {
         if (_passengers.Count >= Airplane.Capacity) return;

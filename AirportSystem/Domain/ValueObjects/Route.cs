@@ -17,6 +17,10 @@ namespace AirportSystem.Domain.ValueObjects
             DistanceKm = distanceKm;    
         }
 
+        public void Print()
+        {
+            Console.WriteLine($"{Destination.Name} - {DistanceKm}");
+        }
         public bool Equals(Route? other)
             => other is not null && Destination.Equals(other.Destination);
 
