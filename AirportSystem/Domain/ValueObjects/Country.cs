@@ -2,10 +2,8 @@ using AirportSystem.Domain.Exceptions.Country;
 
 namespace AirportSystem.Domain.ValueObjects;
 
-/// <summary> Value Object, хранит название страны. /// </summary>
 public sealed class Country : IEquatable<Country>
 {
-    /// <summary>Полное название (например, "Минск, Беларусь").</summary>
     public string Name { get; }
 
     public Country(string name)

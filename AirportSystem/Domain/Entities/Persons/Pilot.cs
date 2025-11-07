@@ -8,7 +8,8 @@ public class Pilot(string name, int age, Gender gender, Money money, uint flight
     : Person(name, age, gender, money), IPilot
 {
     public uint FlightHours { get; private set; } = flightHours;
-
+    public Guid StaffId { get; } = Guid.NewGuid();
+    public StaffDepartment Department { get; } = StaffDepartment.FlightCrew;
     public void AddFlightHours(uint hours)
     {
         if (hours == 0) return;

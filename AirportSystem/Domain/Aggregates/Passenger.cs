@@ -15,21 +15,37 @@ public class Passenger(string name, int age, Gender gender, Money money, List<IT
     public bool AddTicket(ITicket ticket)
     {
         ArgumentNullException.ThrowIfNull(ticket);
-        if (Pay(ticket.Money) && baggage != null && ticket.IsBaggageAllowed(baggage))
+        if (Baggage != null && !ticket.IsBaggageAllowed(Baggage))
         {
-            Console.WriteLine("Ticket has been paid");
-            ticket.Status = TicketStatus.Paid;
-            Tickets.Add(ticket);
-            return true;
+            Console.WriteLine("Baggage not allowed");
+            return false;
         }
 
-        Console.WriteLine("An error occured during payment");
-        return false;
+        ticket.Status = TicketStatus.Paid;
+        Tickets.Add(ticket);
+        return true;
+    }
+
+    public void RemoveTicket(ITicket ticket)
+    {
+        ArgumentNullException.ThrowIfNull(ticket);
+        Tickets.Remove(ticket);
     }
 
     public void AssignBaggage(Baggage baggage)
     {
         ArgumentNullException.ThrowIfNull(baggage);
         Baggage = baggage;
+    }
+
+    public bool Pay(Money money)
+    {
+        if (money.Currency != Currency)
+            return false;
+        if (money.Amount > Money.Amount)
+            return false;
+
+        Money = Money.Subtract(money);
+        return true;
     }
 }

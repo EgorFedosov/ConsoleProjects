@@ -7,19 +7,17 @@ namespace AirportSystem.Domain.Entities.Persons;
 public class Person(string name, int age, Gender gender, Money money)
     : IPerson
 {
+    public Guid Id { get; } = Guid.NewGuid();
     public string Name { get; } = name;
     public int Age { get; } = age;
     public Gender Gender { get; } = gender;
-    public Money Money { get;} = money;
-    protected Currency? Currency => Money.Currency;
+    public Money Money { get; set; } = money;
+    public DateTime DateOfBirth { get; set; }
+    public Address?
+        Address { get; set; }
+    public ContactDetails? ContactDetails { get; set; }
+    public Passport?
+        Passport { get; set; }
 
-    public bool Pay(Money money)
-    {
-        if (money.Currency != Currency)
-            return false;
-        if (money.Amount > Money.Amount)
-            return false;
-        Money.Amount -= money.Amount;
-        return true;
-    }
+    protected Currency? Currency => Money.Currency;
 }

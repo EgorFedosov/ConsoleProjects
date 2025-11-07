@@ -3,47 +3,22 @@ using AirportSystem.Domain.Interfaces;
 using AirportSystem.Domain.ValueObjects;
 
 namespace AirportSystem.Domain.Aggregates;
-
 public class AirportCompany(Money initialBalance) : IAirportCompany
 {
-    private readonly List<IAirplane> _airplanes = [];
-    private readonly List<IPilot> _staff = [];
-    private readonly List<IFlight> _flights = [];
-
-    public ReadOnlyCollection<IAirplane> Airplanes => _airplanes.AsReadOnly();
-    public ReadOnlyCollection<IPilot> Staff => _staff.AsReadOnly();
-    public ReadOnlyCollection<IFlight> Flights => _flights.AsReadOnly();
+    public string RegistrationNumber { get; set; } = string.Empty;
+    public string TaxId { get; set; } = string.Empty;
+    public Address? CompanyAddress { get; set;
+    }
     public Money Balance { get; private set; } = initialBalance;
-
-    public void AddAirplane(IAirplane airplane)
-    {
-        ArgumentNullException.ThrowIfNull(airplane);
-        _airplanes.Add(airplane);
-    }
-
-    public void AddPilot(IPilot pilot)
-    {
-        ArgumentNullException.ThrowIfNull(pilot);
-        _staff.Add(pilot);
-    }
-
-    public void AddFlight(IFlight flight)
-    {
-        ArgumentNullException.ThrowIfNull(flight);
-        _flights.Add(flight);
-    }
-
     public void AddBalance(Money amount)
     {
         ArgumentNullException.ThrowIfNull(amount);
         Balance += amount;
     }
-
-    public void PrintAllFlights()
+    
+    public void SubtractBalance(Money amount)
     {
-        foreach (var flight in _flights)
-            flight.Print();
+        ArgumentNullException.ThrowIfNull(amount);
+        Balance = Balance.Subtract(amount);
     }
-    public IFlight? FindFlightById(Guid flightId)
-        => _flights.FirstOrDefault(f => f.FlightId == flightId);
 }

@@ -2,11 +2,10 @@ using AirportSystem.Domain.Exceptions.Route;
 
 namespace AirportSystem.Domain.ValueObjects
 {
-    /// <summary>Value Object, описывающий маршрут полета (пункт назначения и расстояние).</summary>
     public sealed class Route : IEquatable<Route>
     {
-        public Country Destination { get; }
-        public double DistanceKm { get; }
+        private Country Destination { get; }
+        private double DistanceKm { get; }
 
         public Route(Country destination, double distanceKm)
         {
@@ -14,13 +13,14 @@ namespace AirportSystem.Domain.ValueObjects
                 throw new InvalidDistanceException(distanceKm);
 
             Destination = destination ?? throw new ArgumentNullException(nameof(destination));
-            DistanceKm = distanceKm;    
+            DistanceKm = distanceKm;
         }
 
         public void Print()
         {
             Console.WriteLine($"{Destination.Name} - {DistanceKm}");
         }
+
         public bool Equals(Route? other)
             => other is not null && Destination.Equals(other.Destination);
 

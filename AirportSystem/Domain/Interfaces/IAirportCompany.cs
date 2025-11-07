@@ -5,13 +5,11 @@ namespace AirportSystem.Domain.Interfaces;
 
 public interface IAirportCompany
 {
-    ReadOnlyCollection<IAirplane> Airplanes { get; }
-    ReadOnlyCollection<IPilot> Staff { get; }
-    ReadOnlyCollection<IFlight> Flights { get; }
     Money Balance { get; }
-
-    void AddAirplane(IAirplane airplane);
-    void AddPilot(IPilot pilot);
-    void AddFlight(IFlight flight);
     void AddBalance(Money amount);
+    void SubtractBalance(Money amount);
+    string RegistrationNumber { get; set; }
+    string TaxId { get; set; }
+
+    Address? CompanyAddress { get; set; }
 }
