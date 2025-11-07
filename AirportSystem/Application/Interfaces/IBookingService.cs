@@ -1,5 +1,3 @@
-using AirportSystem.Domain.Interfaces;
-
 namespace AirportSystem.Application.Interfaces;
 
 public interface IBookingService

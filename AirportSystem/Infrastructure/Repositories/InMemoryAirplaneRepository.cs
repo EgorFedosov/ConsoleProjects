@@ -6,6 +6,7 @@ namespace AirportSystem.Infrastructure.Repositories;
 public class InMemoryAirplaneRepository : IAirplaneRepository
 {
     private readonly List<IAirplane> _airplanes = [];
+
     public IAirplane? GetById(Guid id)
     {
         return _airplanes.FirstOrDefault(a => a.Id == id);

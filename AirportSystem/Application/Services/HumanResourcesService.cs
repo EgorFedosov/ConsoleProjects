@@ -1,5 +1,4 @@
 using AirportSystem.Application.Interfaces;
-using AirportSystem.Domain.Aggregates;
 using AirportSystem.Domain.Entities.Persons;
 using AirportSystem.Domain.Enums;
 using AirportSystem.Domain.Interfaces;
@@ -7,6 +6,7 @@ using AirportSystem.Domain.Repositories;
 using AirportSystem.Domain.ValueObjects;
 
 namespace AirportSystem.Application.Services;
+
 public class HumanResourcesService(
     IFlightAttendantRepository attendantRepository,
     IMaintenanceTechnicianRepository technicianRepository,

@@ -9,7 +9,7 @@ public enum AirplaneStatus
     /// Готов к рейсу.
     /// </summary>
     Available,
-        
+
     /// <summary>
     /// Находится на техническом обслуживании, не может быть назначен на рейс.
     /// </summary>
@@ -19,4 +19,4 @@ public enum AirplaneStatus
     /// Выполняет рейс в данный момент.
     /// </summary>
     InFlight
-} 
+}

@@ -9,7 +9,7 @@ public sealed class AirplaneSpecs : IEquatable<AirplaneSpecs>
     public int ModelYear { get; }
     public string EngineType { get; }
 
-    public AirplaneSpecs(string manufacturer, int modelYear,  string engineType)
+    public AirplaneSpecs(string manufacturer, int modelYear, string engineType)
     {
         Manufacturer = manufacturer;
         ModelYear = modelYear;
@@ -21,6 +21,7 @@ public sealed class AirplaneSpecs : IEquatable<AirplaneSpecs>
         if (other is null) return false;
         return Manufacturer == other.Manufacturer && ModelYear == other.ModelYear && EngineType == other.EngineType;
     }
+
     public override bool Equals(object? obj) => obj is AirplaneSpecs other && Equals(other);
     public override int GetHashCode() => HashCode.Combine(Manufacturer, ModelYear, EngineType);
 }

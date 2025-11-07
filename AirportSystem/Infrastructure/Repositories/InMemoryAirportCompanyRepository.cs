@@ -8,14 +8,10 @@ namespace AirportSystem.Infrastructure.Repositories;
 
 public class InMemoryAirportCompanyRepository : IAirportCompanyRepository
 {
-    private readonly IAirportCompany _company;
-    public InMemoryAirportCompanyRepository()
-    {
-        _company = new AirportCompany(new Money(1000000, Currency.Usd));
-    }
+    private readonly IAirportCompany _company = new AirportCompany(new Money(1000000, Currency.Eur));
 
-    public IAirportCompany Get() {
+    public IAirportCompany Get()
+    {
         return _company;
     }
-
 }

@@ -6,6 +6,7 @@ using AirportSystem.Domain.Repositories;
 using AirportSystem.Domain.ValueObjects;
 
 namespace AirportSystem.Application.Services;
+
 public class FleetManagementService(
     IAirplaneRepository airplaneRepository)
     : IFleetManagementService
@@ -15,7 +16,8 @@ public class FleetManagementService(
         ArgumentNullException.ThrowIfNull(airplane);
         if (airplane.Status == AirplaneStatus.InFlight)
         {
-            throw new InvalidOperationException("Cannot schedule maintenance for an airplane that is currently in flight.");
+            throw new InvalidOperationException(
+                "Cannot schedule maintenance for an airplane that is currently in flight.");
         }
 
         airplane.Status = AirplaneStatus.InMaintenance;
@@ -50,7 +52,7 @@ public class FleetManagementService(
             DateOfManufacture = DateTime.UtcNow
         };
         airplaneRepository.Add(airplane);
-        
+
         return airplane;
     }
-}   
+}

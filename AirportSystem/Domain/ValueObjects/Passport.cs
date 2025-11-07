@@ -7,19 +7,15 @@ public sealed class Passport : IEquatable<Passport>
 {
     public string PassportNumber { get; }
     public Country IssueCountry { get; }
-    public DateTime DateOfIssue { get; }
     public DateTime ExpiryDate { get; }
 
-    public Passport(string passportNumber, Country issueCountry, DateTime dateOfIssue, DateTime expiryDate)
+    public Passport(string passportNumber, Country issueCountry, DateTime expiryDate)
     {
         if (string.IsNullOrWhiteSpace(passportNumber))
             throw new ArgumentException("Passport number cannot be empty", nameof(passportNumber));
-        if (expiryDate <= dateOfIssue)
-            throw new ArgumentException("Expiry date must be after issue date", nameof(expiryDate));
 
         PassportNumber = passportNumber;
         IssueCountry = issueCountry ?? throw new ArgumentNullException(nameof(issueCountry));
-        DateOfIssue = dateOfIssue;
         ExpiryDate = expiryDate;
     }
 
@@ -30,6 +26,7 @@ public sealed class Passport : IEquatable<Passport>
         if (other is null) return false;
         return PassportNumber == other.PassportNumber && IssueCountry.Equals(other.IssueCountry);
     }
+
     public override bool Equals(object? obj) => obj is Passport other && Equals(other);
     public override int GetHashCode() => HashCode.Combine(PassportNumber, IssueCountry);
 }

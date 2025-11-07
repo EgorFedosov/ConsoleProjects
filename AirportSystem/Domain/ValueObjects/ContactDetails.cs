@@ -13,6 +13,7 @@ public sealed class ContactDetails(string? email, string? phoneNumber) : IEquata
         if (other is null) return false;
         return Email == other.Email && PhoneNumber == other.PhoneNumber;
     }
+
     public override bool Equals(object? obj) => obj is ContactDetails other && Equals(other);
     public override int GetHashCode() => HashCode.Combine(Email, PhoneNumber);
 }

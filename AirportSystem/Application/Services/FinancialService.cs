@@ -1,10 +1,10 @@
 using AirportSystem.Application.Interfaces;
-using AirportSystem.Domain.Aggregates;
 using AirportSystem.Domain.Interfaces;
 using AirportSystem.Domain.Repositories;
 using AirportSystem.Domain.ValueObjects;
 
 namespace AirportSystem.Application.Services;
+
 public class FinancialService(
     IAirportCompanyRepository companyRepository)
     : IFinancialService
@@ -13,10 +13,10 @@ public class FinancialService(
     {
         ArgumentNullException.ThrowIfNull(passenger);
         ArgumentNullException.ThrowIfNull(amount);
-        
+
         var company = companyRepository.Get();
         if (!passenger.Pay(amount)) return false;
-        
+
         company.AddBalance(amount);
         return true;
     }
@@ -25,7 +25,7 @@ public class FinancialService(
     {
         ArgumentNullException.ThrowIfNull(passenger);
         ArgumentNullException.ThrowIfNull(amount);
-        
+
         var company = companyRepository.Get();
 
         try

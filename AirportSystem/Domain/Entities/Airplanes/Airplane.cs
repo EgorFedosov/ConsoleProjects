@@ -1,6 +1,7 @@
 using AirportSystem.Domain.Enums;
 using AirportSystem.Domain.Interfaces;
 using AirportSystem.Domain.ValueObjects;
+
 namespace AirportSystem.Domain.Entities.Airplanes;
 
 public class Airplane(
@@ -16,13 +17,12 @@ public class Airplane(
     public uint Capacity { get; } = capacity;
     public Money Price { get; } = price;
     public AirplaneStatus? Status { get; set; } = status;
-    public uint MaxWeightBaggage { get; } =  maxWeightBaggage;
+    public uint MaxWeightBaggage { get; } = maxWeightBaggage;
     private readonly List<MaintenanceRecord> _maintenanceHistory = [];
     public IReadOnlyCollection<MaintenanceRecord> MaintenanceHistory => _maintenanceHistory.AsReadOnly();
-    public AirplaneSpecs? Specs { get; set;
-    }
-    public DateTime DateOfManufacture { get; set;
-    }
+    public AirplaneSpecs? Specs { get; set; }
+    public DateTime DateOfManufacture { get; set; }
+
     public void AddMaintenanceRecord(MaintenanceRecord record)
     {
         ArgumentNullException.ThrowIfNull(record);

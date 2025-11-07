@@ -1,5 +1,6 @@
 using AirportSystem.Domain.Interfaces;
 using AirportSystem.Domain.Repositories;
+
 namespace AirportSystem.Infrastructure.Repositories;
 
 public class InMemoryFlightRepository : IFlightRepository

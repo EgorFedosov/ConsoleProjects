@@ -1,4 +1,3 @@
-using System.Collections.ObjectModel;
 using AirportSystem.Domain.ValueObjects;
 
 namespace AirportSystem.Domain.Interfaces;

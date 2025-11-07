@@ -7,5 +7,4 @@ public interface IAirplaneRepository
     IAirplane? GetById(Guid id);
     IEnumerable<IAirplane> GetAll();
     void Add(IAirplane airplane);
-    
 }

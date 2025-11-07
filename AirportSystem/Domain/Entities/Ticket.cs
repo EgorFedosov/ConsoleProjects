@@ -10,6 +10,7 @@ public class Ticket(IPassenger passenger, IFlight flight, TicketStatus status, M
     public IPassenger Passenger { get; } = passenger;
     public IFlight Flight { get; } = flight;
     private readonly IAirplane _airplane = flight.Airplane;
+
     public bool IsBaggageAllowed(Baggage baggage)
         => _airplane.MaxWeightBaggage > baggage.WeightKg;
 

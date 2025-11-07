@@ -1,9 +1,9 @@
 using AirportSystem.Application.Interfaces;
-using AirportSystem.Domain.Entities.Airplanes;
 using AirportSystem.Domain.Interfaces;
 using AirportSystem.Domain.ValueObjects;
 
 namespace AirportSystem.Application.Services;
+
 public class AirplaneMaintenanceService : IAirplaneMaintenanceService
 {
     public MaintenanceRecord LogMaintenanceRecord(
@@ -18,9 +18,9 @@ public class AirplaneMaintenanceService : IAirplaneMaintenanceService
         ArgumentNullException.ThrowIfNull(cost);
 
         var record = new MaintenanceRecord(DateTime.UtcNow, description, cost, technician.StaffId);
-        
+
         airplane.AddMaintenanceRecord(record);
-        
+
         return record;
     }
 }

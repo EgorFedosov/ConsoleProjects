@@ -1,8 +1,6 @@
 using AirportSystem.Application.Interfaces;
-using AirportSystem.Domain.Aggregates;
 using AirportSystem.Domain.Entities;
 using AirportSystem.Domain.Enums;
-using AirportSystem.Domain.Interfaces;
 using AirportSystem.Domain.Repositories;
 
 namespace AirportSystem.Application.Services;
@@ -39,7 +37,7 @@ public class BookingService(
         {
             return false;
         }
-        
+
         if (!financialService.ProcessPayment(passenger, ticket.Money))
         {
             return false;
@@ -57,7 +55,7 @@ public class BookingService(
             passenger.RemoveTicket(ticket);
             return false;
         }
-        
+
         return true;
     }
 }

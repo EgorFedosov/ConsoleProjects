@@ -24,8 +24,10 @@ public sealed class Address : IEquatable<Address>
     public bool Equals(Address? other)
     {
         if (other is null) return false;
-        return Street == other.Street && City == other.City && ZipCode == other.ZipCode && Country.Equals(other.Country);
+        return Street == other.Street && City == other.City && ZipCode == other.ZipCode &&
+               Country.Equals(other.Country);
     }
+
     public override bool Equals(object? obj) => obj is Address other && Equals(other);
     public override int GetHashCode() => HashCode.Combine(Street, City, ZipCode, Country);
 }

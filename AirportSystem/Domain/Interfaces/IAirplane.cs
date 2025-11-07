@@ -8,15 +8,12 @@ public interface IAirplane
     Guid Id { get; }
     string Model { get; }
     uint Capacity { get; }
-    uint MaxWeightBaggage { get;
-    }
+    uint MaxWeightBaggage { get; }
     Money Price { get; }
-    AirplaneStatus? Status { get; set;
-    }
-    
+    AirplaneStatus? Status { get; set; }
+
     IReadOnlyCollection<MaintenanceRecord> MaintenanceHistory { get; }
-    AirplaneSpecs? Specs { get;
-        set; }
+    AirplaneSpecs? Specs { get; set; }
     DateTime DateOfManufacture { get; set; }
 
     void Print();

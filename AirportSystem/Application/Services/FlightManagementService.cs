@@ -7,7 +7,7 @@ using AirportSystem.Domain.ValueObjects;
 namespace AirportSystem.Application.Services;
 
 public class FlightManagementService(
-    IFlightRepository flightRepository) 
+    IFlightRepository flightRepository)
     : IFlightManagementService
 {
     public IFlight CreateFlight(IAirplane airplane, List<IPilot> crew, Route route, Money ticketPrice)
@@ -27,7 +27,7 @@ public class FlightManagementService(
     {
         ArgumentNullException.ThrowIfNull(flight);
         ArgumentNullException.ThrowIfNull(newPrice);
-        
+
         flight.UpdateTicketPrice(newPrice);
     }
 }

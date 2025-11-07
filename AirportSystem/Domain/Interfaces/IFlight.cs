@@ -1,3 +1,4 @@
+using AirportSystem.Domain.Enums;
 using AirportSystem.Domain.ValueObjects;
 
 namespace AirportSystem.Domain.Interfaces;
@@ -13,6 +14,7 @@ public interface IFlight
     Money TicketPrice { get;
     }
     Guid FlightId { get; }
+    FlightStatus Status { get; set; }
 
     void Print();
     

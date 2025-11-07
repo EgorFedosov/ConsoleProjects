@@ -13,8 +13,7 @@ public class Person(string name, int age, Gender gender, Money money)
     public Gender Gender { get; } = gender;
     public Money Money { get; set; } = money;
     public DateTime DateOfBirth { get; set; }
-    public Address?
-        Address { get; set; }
+    public Address? Address { get; set; }
     public ContactDetails? ContactDetails { get; set; }
     public Passport?
         Passport { get; set; }

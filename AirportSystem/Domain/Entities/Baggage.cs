@@ -1,23 +1,15 @@
-using AirportSystem.Domain.Interfaces;
-
 namespace AirportSystem.Domain.Entities;
 
 public class Baggage : IEquatable<Baggage>
 {
-    public double WeightKg { get;
-    }
+    public double WeightKg { get; }
     private Guid BaggageId { get; } = Guid.NewGuid();
-    public IPassenger Owner { get;
-    } 
 
-
-    private const double Tolerance = 0.0001;
-    public Baggage(double weightKg, IPassenger owner)
+    protected Baggage(double weightKg)
     {
         if (weightKg <= 0)
             throw new ArgumentException("Вес багажа должен быть положительным.", nameof(weightKg));
         WeightKg = weightKg;
-        Owner = owner ?? throw new ArgumentNullException(nameof(owner));
     }
 
     public bool Equals(Baggage? other)

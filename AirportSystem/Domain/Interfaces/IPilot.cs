@@ -1,6 +1,6 @@
 namespace AirportSystem.Domain.Interfaces;
 
-public interface IPilot:IPerson
+public interface IPilot : IPerson
 {
     uint FlightHours { get; }
 }
