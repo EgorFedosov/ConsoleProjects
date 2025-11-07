@@ -1,0 +1,2700 @@
+<?xml version="1.0" encoding="utf-8"?>
+<coverage line-rate="0.7735" branch-rate="0.7720999999999999" version="1.9" timestamp="1762554876" lines-covered="444" lines-valid="574" branches-covered="122" branches-valid="158">
+  <sources>
+    <source>D:\ConsoleProjects\AirportSystem\AirportSystem\</source>
+  </sources>
+  <packages>
+    <package name="AirportSystem" line-rate="0.7735" branch-rate="0.7720999999999999" complexity="309">
+      <classes>
+        <class name="AirportSystem.Program" filename="Program.cs" line-rate="0" branch-rate="0" complexity="8">
+          <methods>
+            <method name="Main" signature="()" line-rate="0" branch-rate="0" complexity="8">
+              <lines>
+                <line number="15" hits="0" branch="False" />
+                <line number="16" hits="0" branch="False" />
+                <line number="18" hits="0" branch="False" />
+                <line number="19" hits="0" branch="False" />
+                <line number="20" hits="0" branch="False" />
+                <line number="21" hits="0" branch="False" />
+                <line number="22" hits="0" branch="False" />
+                <line number="23" hits="0" branch="False" />
+                <line number="24" hits="0" branch="False" />
+                <line number="26" hits="0" branch="False" />
+                <line number="27" hits="0" branch="False" />
+                <line number="28" hits="0" branch="False" />
+                <line number="29" hits="0" branch="False" />
+                <line number="30" hits="0" branch="False" />
+                <line number="31" hits="0" branch="False" />
+                <line number="32" hits="0" branch="False" />
+                <line number="35" hits="0" branch="False" />
+                <line number="37" hits="0" branch="False" />
+                <line number="38" hits="0" branch="False" />
+                <line number="40" hits="0" branch="False" />
+                <line number="41" hits="0" branch="False" />
+                <line number="42" hits="0" branch="False" />
+                <line number="44" hits="0" branch="False" />
+                <line number="45" hits="0" branch="False" />
+                <line number="48" hits="0" branch="False" />
+                <line number="50" hits="0" branch="False" />
+                <line number="51" hits="0" branch="False" />
+                <line number="53" hits="0" branch="False" />
+                <line number="54" hits="0" branch="False" />
+                <line number="56" hits="0" branch="False" />
+                <line number="59" hits="0" branch="False" />
+                <line number="61" hits="0" branch="False" />
+                <line number="62" hits="0" branch="False" />
+                <line number="63" hits="0" branch="False" />
+                <line number="64" hits="0" branch="False" />
+                <line number="66" hits="0" branch="False" />
+                <line number="68" hits="0" branch="False" />
+                <line number="69" hits="0" branch="False" />
+                <line number="72" hits="0" branch="False" />
+                <line number="74" hits="0" branch="False" />
+                <line number="75" hits="0" branch="False" />
+                <line number="76" hits="0" branch="False" />
+                <line number="78" hits="0" branch="False" />
+                <line number="80" hits="0" branch="False" />
+                <line number="81" hits="0" branch="False" />
+                <line number="83" hits="0" branch="False" />
+                <line number="85" hits="0" branch="False" />
+                <line number="87" hits="0" branch="False" />
+                <line number="88" hits="0" branch="False" />
+                <line number="90" hits="0" branch="False" />
+                <line number="91" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="1081" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="93" hits="0" branch="True" condition-coverage="0% (0/4)">
+                  <conditions>
+                    <condition number="1127" type="jump" coverage="0%" />
+                    <condition number="1181" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="96" hits="0" branch="False" />
+                <line number="98" hits="0" branch="False" />
+                <line number="100" hits="0" branch="False" />
+                <line number="101" hits="0" branch="False" />
+                <line number="103" hits="0" branch="False" />
+                <line number="104" hits="0" branch="False" />
+                <line number="107" hits="0" branch="False" />
+                <line number="109" hits="0" branch="False" />
+                <line number="110" hits="0" branch="False" />
+                <line number="112" hits="0" branch="False" />
+                <line number="113" hits="0" branch="False" />
+                <line number="114" hits="0" branch="False" />
+                <line number="116" hits="0" branch="False" />
+                <line number="118" hits="0" branch="False" />
+                <line number="119" hits="0" branch="False" />
+                <line number="121" hits="0" branch="False" />
+                <line number="122" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="1813" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="123" hits="0" branch="False" />
+                <line number="124" hits="0" branch="False" />
+                <line number="125" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="15" hits="0" branch="False" />
+            <line number="16" hits="0" branch="False" />
+            <line number="18" hits="0" branch="False" />
+            <line number="19" hits="0" branch="False" />
+            <line number="20" hits="0" branch="False" />
+            <line number="21" hits="0" branch="False" />
+            <line number="22" hits="0" branch="False" />
+            <line number="23" hits="0" branch="False" />
+            <line number="24" hits="0" branch="False" />
+            <line number="26" hits="0" branch="False" />
+            <line number="27" hits="0" branch="False" />
+            <line number="28" hits="0" branch="False" />
+            <line number="29" hits="0" branch="False" />
+            <line number="30" hits="0" branch="False" />
+            <line number="31" hits="0" branch="False" />
+            <line number="32" hits="0" branch="False" />
+            <line number="35" hits="0" branch="False" />
+            <line number="37" hits="0" branch="False" />
+            <line number="38" hits="0" branch="False" />
+            <line number="40" hits="0" branch="False" />
+            <line number="41" hits="0" branch="False" />
+            <line number="42" hits="0" branch="False" />
+            <line number="44" hits="0" branch="False" />
+            <line number="45" hits="0" branch="False" />
+            <line number="48" hits="0" branch="False" />
+            <line number="50" hits="0" branch="False" />
+            <line number="51" hits="0" branch="False" />
+            <line number="53" hits="0" branch="False" />
+            <line number="54" hits="0" branch="False" />
+            <line number="56" hits="0" branch="False" />
+            <line number="59" hits="0" branch="False" />
+            <line number="61" hits="0" branch="False" />
+            <line number="62" hits="0" branch="False" />
+            <line number="63" hits="0" branch="False" />
+            <line number="64" hits="0" branch="False" />
+            <line number="66" hits="0" branch="False" />
+            <line number="68" hits="0" branch="False" />
+            <line number="69" hits="0" branch="False" />
+            <line number="72" hits="0" branch="False" />
+            <line number="74" hits="0" branch="False" />
+            <line number="75" hits="0" branch="False" />
+            <line number="76" hits="0" branch="False" />
+            <line number="78" hits="0" branch="False" />
+            <line number="80" hits="0" branch="False" />
+            <line number="81" hits="0" branch="False" />
+            <line number="83" hits="0" branch="False" />
+            <line number="85" hits="0" branch="False" />
+            <line number="87" hits="0" branch="False" />
+            <line number="88" hits="0" branch="False" />
+            <line number="90" hits="0" branch="False" />
+            <line number="91" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="1081" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="93" hits="0" branch="True" condition-coverage="0% (0/4)">
+              <conditions>
+                <condition number="1127" type="jump" coverage="0%" />
+                <condition number="1181" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="96" hits="0" branch="False" />
+            <line number="98" hits="0" branch="False" />
+            <line number="100" hits="0" branch="False" />
+            <line number="101" hits="0" branch="False" />
+            <line number="103" hits="0" branch="False" />
+            <line number="104" hits="0" branch="False" />
+            <line number="107" hits="0" branch="False" />
+            <line number="109" hits="0" branch="False" />
+            <line number="110" hits="0" branch="False" />
+            <line number="112" hits="0" branch="False" />
+            <line number="113" hits="0" branch="False" />
+            <line number="114" hits="0" branch="False" />
+            <line number="116" hits="0" branch="False" />
+            <line number="118" hits="0" branch="False" />
+            <line number="119" hits="0" branch="False" />
+            <line number="121" hits="0" branch="False" />
+            <line number="122" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="1813" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="123" hits="0" branch="False" />
+            <line number="124" hits="0" branch="False" />
+            <line number="125" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="AirportSystem.Infrastructure.Repositories.InMemoryAirplaneRepository" filename="Infrastructure\Repositories\InMemoryAirplaneRepository.cs" line-rate="1" branch-rate="1" complexity="4">
+          <methods>
+            <method name="GetById" signature="(System.Guid)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="11" hits="1" branch="False" />
+                <line number="12" hits="2" branch="False" />
+                <line number="13" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="GetAll" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="16" hits="2" branch="False" />
+                <line number="17" hits="2" branch="False" />
+                <line number="18" hits="2" branch="False" />
+              </lines>
+            </method>
+            <method name="Add" signature="(AirportSystem.Domain.Interfaces.IAirplane)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="21" hits="26" branch="False" />
+                <line number="22" hits="26" branch="False" />
+                <line number="23" hits="26" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="8" hits="38" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="11" hits="1" branch="False" />
+            <line number="12" hits="2" branch="False" />
+            <line number="13" hits="1" branch="False" />
+            <line number="16" hits="2" branch="False" />
+            <line number="17" hits="2" branch="False" />
+            <line number="18" hits="2" branch="False" />
+            <line number="21" hits="26" branch="False" />
+            <line number="22" hits="26" branch="False" />
+            <line number="23" hits="26" branch="False" />
+            <line number="8" hits="38" branch="False" />
+          </lines>
+        </class>
+        <class name="AirportSystem.Infrastructure.Repositories.InMemoryAirportCompanyRepository" filename="Infrastructure\Repositories\InMemoryAirportCompanyRepository.cs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name="Get" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="14" hits="14" branch="False" />
+                <line number="15" hits="14" branch="False" />
+                <line number="16" hits="14" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="11" hits="38" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="14" hits="14" branch="False" />
+            <line number="15" hits="14" branch="False" />
+            <line number="16" hits="14" branch="False" />
+            <line number="11" hits="38" branch="False" />
+          </lines>
+        </class>
+        <class name="AirportSystem.Infrastructure.Repositories.InMemoryFlightAttendantRepository" filename="Infrastructure\Repositories\InMemoryFlightAttendantRepository.cs" line-rate="1" branch-rate="1" complexity="3">
+          <methods>
+            <method name="GetById" signature="(System.Guid)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="9" hits="2" branch="False" />
+              </lines>
+            </method>
+            <method name="Add" signature="(AirportSystem.Domain.Interfaces.IFlightAttendant)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="10" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="8" hits="38" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="9" hits="2" branch="False" />
+            <line number="10" hits="1" branch="False" />
+            <line number="8" hits="38" branch="False" />
+          </lines>
+        </class>
+        <class name="AirportSystem.Infrastructure.Repositories.InMemoryFlightRepository" filename="Infrastructure\Repositories\InMemoryFlightRepository.cs" line-rate="1" branch-rate="1" complexity="4">
+          <methods>
+            <method name="GetById" signature="(System.Guid)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="12" hits="21" branch="False" />
+                <line number="13" hits="39" branch="False" />
+                <line number="14" hits="21" branch="False" />
+              </lines>
+            </method>
+            <method name="GetAll" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="17" hits="1" branch="False" />
+                <line number="18" hits="1" branch="False" />
+                <line number="19" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="Add" signature="(AirportSystem.Domain.Interfaces.IFlight)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="22" hits="19" branch="False" />
+                <line number="23" hits="19" branch="False" />
+                <line number="24" hits="19" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="8" hits="38" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="12" hits="21" branch="False" />
+            <line number="13" hits="39" branch="False" />
+            <line number="14" hits="21" branch="False" />
+            <line number="17" hits="1" branch="False" />
+            <line number="18" hits="1" branch="False" />
+            <line number="19" hits="1" branch="False" />
+            <line number="22" hits="19" branch="False" />
+            <line number="23" hits="19" branch="False" />
+            <line number="24" hits="19" branch="False" />
+            <line number="8" hits="38" branch="False" />
+          </lines>
+        </class>
+        <class name="AirportSystem.Infrastructure.Repositories.InMemoryMaintenanceTechnicianRepository" filename="Infrastructure\Repositories\InMemoryMaintenanceTechnicianRepository.cs" line-rate="1" branch-rate="1" complexity="3">
+          <methods>
+            <method name="GetById" signature="(System.Guid)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="9" hits="2" branch="False" />
+              </lines>
+            </method>
+            <method name="Add" signature="(AirportSystem.Domain.Interfaces.IMaintenanceTechnician)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="10" hits="2" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="8" hits="38" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="9" hits="2" branch="False" />
+            <line number="10" hits="2" branch="False" />
+            <line number="8" hits="38" branch="False" />
+          </lines>
+        </class>
+        <class name="AirportSystem.Infrastructure.Repositories.InMemoryPassengerRepository" filename="Infrastructure\Repositories\InMemoryPassengerRepository.cs" line-rate="1" branch-rate="1" complexity="3">
+          <methods>
+            <method name="GetById" signature="(System.Guid)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="9" hits="16" branch="False" />
+              </lines>
+            </method>
+            <method name="Add" signature="(AirportSystem.Domain.Interfaces.IPassenger)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="10" hits="13" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="8" hits="38" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="9" hits="16" branch="False" />
+            <line number="10" hits="13" branch="False" />
+            <line number="8" hits="38" branch="False" />
+          </lines>
+        </class>
+        <class name="AirportSystem.Infrastructure.Repositories.InMemoryPilotRepository" filename="Infrastructure\Repositories\InMemoryPilotRepository.cs" line-rate="1" branch-rate="1" complexity="3">
+          <methods>
+            <method name="GetById" signature="(System.Guid)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="9" hits="2" branch="False" />
+              </lines>
+            </method>
+            <method name="Add" signature="(AirportSystem.Domain.Interfaces.IPilot)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="10" hits="20" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="8" hits="38" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="9" hits="2" branch="False" />
+            <line number="10" hits="20" branch="False" />
+            <line number="8" hits="38" branch="False" />
+          </lines>
+        </class>
+        <class name="AirportSystem.Domain.ValueObjects.Address" filename="Domain\ValueObjects\Address.cs" line-rate="1" branch-rate="0.9444" complexity="23">
+          <methods>
+            <method name="get_Street" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="8" hits="6" branch="False" />
+              </lines>
+            </method>
+            <method name="get_City" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="9" hits="4" branch="False" />
+              </lines>
+            </method>
+            <method name="get_ZipCode" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="10" hits="4" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Country" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="11" hits="4" branch="False" />
+              </lines>
+            </method>
+            <method name="Equals" signature="(AirportSystem.Domain.ValueObjects.Address)" line-rate="1" branch-rate="1" complexity="8">
+              <lines>
+                <line number="25" hits="3" branch="False" />
+                <line number="26" hits="4" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="7" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="27" hits="2" branch="True" condition-coverage="100% (6/6)">
+                  <conditions>
+                    <condition number="30" type="jump" coverage="100%" />
+                    <condition number="49" type="jump" coverage="100%" />
+                    <condition number="68" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="28" hits="2" branch="False" />
+                <line number="29" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="Equals" signature="(System.Object)" line-rate="1" branch-rate="0.5" complexity="2">
+              <lines>
+                <line number="31" hits="1" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="8" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+              </lines>
+            </method>
+            <method name="GetHashCode" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="32" hits="2" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.String,System.String,System.String,AirportSystem.Domain.ValueObjects.Country)" line-rate="1" branch-rate="1" complexity="8">
+              <lines>
+                <line number="13" hits="7" branch="False" />
+                <line number="14" hits="7" branch="False" />
+                <line number="15" hits="8" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="16" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="16" hits="7" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="42" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="17" hits="6" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="68" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="18" hits="4" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="90" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="19" hits="3" branch="False" />
+                <line number="20" hits="3" branch="False" />
+                <line number="21" hits="3" branch="False" />
+                <line number="22" hits="3" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="8" hits="6" branch="False" />
+            <line number="9" hits="4" branch="False" />
+            <line number="10" hits="4" branch="False" />
+            <line number="11" hits="4" branch="False" />
+            <line number="25" hits="3" branch="False" />
+            <line number="26" hits="4" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="7" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="27" hits="2" branch="True" condition-coverage="100% (6/6)">
+              <conditions>
+                <condition number="30" type="jump" coverage="100%" />
+                <condition number="49" type="jump" coverage="100%" />
+                <condition number="68" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="28" hits="2" branch="False" />
+            <line number="29" hits="3" branch="False" />
+            <line number="31" hits="1" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="8" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="32" hits="2" branch="False" />
+            <line number="13" hits="7" branch="False" />
+            <line number="14" hits="7" branch="False" />
+            <line number="15" hits="8" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="16" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="16" hits="7" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="42" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="17" hits="6" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="68" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="18" hits="4" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="90" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="19" hits="3" branch="False" />
+            <line number="20" hits="3" branch="False" />
+            <line number="21" hits="3" branch="False" />
+            <line number="22" hits="3" branch="False" />
+          </lines>
+        </class>
+        <class name="AirportSystem.Domain.ValueObjects.AirplaneSpecs" filename="Domain\ValueObjects\AirplaneSpecs.cs" line-rate="1" branch-rate="0.875" complexity="13">
+          <methods>
+            <method name="get_Manufacturer" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="8" hits="6" branch="False" />
+              </lines>
+            </method>
+            <method name="get_ModelYear" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="9" hits="4" branch="False" />
+              </lines>
+            </method>
+            <method name="get_EngineType" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="10" hits="4" branch="False" />
+              </lines>
+            </method>
+            <method name="Equals" signature="(AirportSystem.Domain.ValueObjects.AirplaneSpecs)" line-rate="1" branch-rate="1" complexity="6">
+              <lines>
+                <line number="20" hits="3" branch="False" />
+                <line number="21" hits="4" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="7" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="22" hits="2" branch="True" condition-coverage="100% (4/4)">
+                  <conditions>
+                    <condition number="30" type="jump" coverage="100%" />
+                    <condition number="44" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="23" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="Equals" signature="(System.Object)" line-rate="1" branch-rate="0.5" complexity="2">
+              <lines>
+                <line number="25" hits="1" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="8" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+              </lines>
+            </method>
+            <method name="GetHashCode" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="26" hits="2" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.String,System.Int32,System.String)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="12" hits="29" branch="False" />
+                <line number="13" hits="29" branch="False" />
+                <line number="14" hits="29" branch="False" />
+                <line number="15" hits="29" branch="False" />
+                <line number="16" hits="29" branch="False" />
+                <line number="17" hits="29" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="8" hits="6" branch="False" />
+            <line number="9" hits="4" branch="False" />
+            <line number="10" hits="4" branch="False" />
+            <line number="20" hits="3" branch="False" />
+            <line number="21" hits="4" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="7" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="22" hits="2" branch="True" condition-coverage="100% (4/4)">
+              <conditions>
+                <condition number="30" type="jump" coverage="100%" />
+                <condition number="44" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="23" hits="3" branch="False" />
+            <line number="25" hits="1" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="8" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="26" hits="2" branch="False" />
+            <line number="12" hits="29" branch="False" />
+            <line number="13" hits="29" branch="False" />
+            <line number="14" hits="29" branch="False" />
+            <line number="15" hits="29" branch="False" />
+            <line number="16" hits="29" branch="False" />
+            <line number="17" hits="29" branch="False" />
+          </lines>
+        </class>
+        <class name="AirportSystem.Domain.ValueObjects.ContactDetails" filename="Domain\ValueObjects\ContactDetails.cs" line-rate="1" branch-rate="0.6" complexity="13">
+          <methods>
+            <method name="get_Email" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="8" hits="9" branch="False" />
+              </lines>
+            </method>
+            <method name="get_PhoneNumber" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="9" hits="9" branch="False" />
+              </lines>
+            </method>
+            <method name="Equals" signature="(AirportSystem.Domain.ValueObjects.ContactDetails)" line-rate="1" branch-rate="0.75" complexity="4">
+              <lines>
+                <line number="12" hits="3" branch="False" />
+                <line number="13" hits="4" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="7" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="14" hits="2" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="30" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="15" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="Equals" signature="(System.Object)" line-rate="1" branch-rate="0.5" complexity="2">
+              <lines>
+                <line number="17" hits="1" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="8" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+              </lines>
+            </method>
+            <method name="GetHashCode" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="18" hits="2" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.String,System.String)" line-rate="1" branch-rate="0.5" complexity="4">
+              <lines>
+                <line number="6" hits="3" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="8" hits="9" branch="False" />
+            <line number="9" hits="9" branch="False" />
+            <line number="12" hits="3" branch="False" />
+            <line number="13" hits="4" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="7" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="14" hits="2" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="30" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="15" hits="3" branch="False" />
+            <line number="17" hits="1" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="8" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="18" hits="2" branch="False" />
+            <line number="6" hits="3" branch="False" />
+          </lines>
+        </class>
+        <class name="AirportSystem.Domain.ValueObjects.Country" filename="Domain\ValueObjects\Country.cs" line-rate="1" branch-rate="1" complexity="10">
+          <methods>
+            <method name="get_Name" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="7" hits="28" branch="False" />
+              </lines>
+            </method>
+            <method name="Equals" signature="(AirportSystem.Domain.ValueObjects.Country)" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="18" hits="11" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="1" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+              </lines>
+            </method>
+            <method name="Equals" signature="(System.Object)" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="21" hits="3" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="8" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+              </lines>
+            </method>
+            <method name="GetHashCode" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="24" hits="8" branch="False" />
+              </lines>
+            </method>
+            <method name="op_Equality" signature="(AirportSystem.Domain.ValueObjects.Country,AirportSystem.Domain.ValueObjects.Country)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="27" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="op_Inequality" signature="(AirportSystem.Domain.ValueObjects.Country,AirportSystem.Domain.ValueObjects.Country)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="30" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.String)" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="9" hits="37" branch="False" />
+                <line number="10" hits="37" branch="False" />
+                <line number="11" hits="37" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="16" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="12" hits="1" branch="False" />
+                <line number="14" hits="36" branch="False" />
+                <line number="15" hits="36" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="7" hits="28" branch="False" />
+            <line number="18" hits="11" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="1" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="21" hits="3" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="8" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="24" hits="8" branch="False" />
+            <line number="27" hits="1" branch="False" />
+            <line number="30" hits="1" branch="False" />
+            <line number="9" hits="37" branch="False" />
+            <line number="10" hits="37" branch="False" />
+            <line number="11" hits="37" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="16" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="12" hits="1" branch="False" />
+            <line number="14" hits="36" branch="False" />
+            <line number="15" hits="36" branch="False" />
+          </lines>
+        </class>
+        <class name="AirportSystem.Domain.ValueObjects.MaintenanceRecord" filename="Domain\ValueObjects\MaintenanceRecord.cs" line-rate="1" branch-rate="1" complexity="6">
+          <methods>
+            <method name="get_MaintenanceId" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="8" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="get_DatePerformed" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="9" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Description" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="10" hits="2" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Cost" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="11" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="get_TechnicianId" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="12" hits="2" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.DateTime,System.String,AirportSystem.Domain.ValueObjects.Money,System.Guid)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="6" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="8" hits="1" branch="False" />
+            <line number="9" hits="1" branch="False" />
+            <line number="10" hits="2" branch="False" />
+            <line number="11" hits="1" branch="False" />
+            <line number="12" hits="2" branch="False" />
+            <line number="6" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="AirportSystem.Domain.ValueObjects.Money" filename="Domain\ValueObjects\Money.cs" line-rate="0.9301999999999999" branch-rate="0.8887999999999999" complexity="24">
+          <methods>
+            <method name="get_Amount" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="9" hits="104" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Currency" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="10" hits="79" branch="False" />
+              </lines>
+            </method>
+            <method name="Print" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="21" hits="1" branch="False" />
+                <line number="22" hits="1" branch="False" />
+                <line number="23" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="Add" signature="(AirportSystem.Domain.ValueObjects.Money)" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="26" hits="2" branch="False" />
+                <line number="27" hits="2" branch="False" />
+                <line number="28" hits="2" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="32" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="29" hits="1" branch="False" />
+                <line number="30" hits="1" branch="False" />
+                <line number="31" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="Subtract" signature="(AirportSystem.Domain.ValueObjects.Money)" line-rate="0.875" branch-rate="0.75" complexity="4">
+              <lines>
+                <line number="34" hits="8" branch="False" />
+                <line number="35" hits="8" branch="False" />
+                <line number="36" hits="8" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="32" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="37" hits="0" branch="False" />
+                <line number="38" hits="8" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="71" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="39" hits="3" branch="False" />
+                <line number="40" hits="5" branch="False" />
+                <line number="41" hits="5" branch="False" />
+              </lines>
+            </method>
+            <method name="Equals" signature="(AirportSystem.Domain.ValueObjects.Money)" line-rate="1" branch-rate="1" complexity="4">
+              <lines>
+                <line number="44" hits="9" branch="True" condition-coverage="100% (4/4)">
+                  <conditions>
+                    <condition number="1" type="jump" coverage="100%" />
+                    <condition number="20" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="45" hits="9" branch="False" />
+                <line number="46" hits="9" branch="False" />
+              </lines>
+            </method>
+            <method name="Equals" signature="(System.Object)" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="49" hits="5" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="8" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+              </lines>
+            </method>
+            <method name="GetHashCode" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="52" hits="2" branch="False" />
+              </lines>
+            </method>
+            <method name="op_Equality" signature="(AirportSystem.Domain.ValueObjects.Money,AirportSystem.Domain.ValueObjects.Money)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="55" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="op_Inequality" signature="(AirportSystem.Domain.ValueObjects.Money,AirportSystem.Domain.ValueObjects.Money)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="58" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="op_Addition" signature="(AirportSystem.Domain.ValueObjects.Money,AirportSystem.Domain.ValueObjects.Money)" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="61" hits="6" branch="False" />
+                <line number="62" hits="6" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="20" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="63" hits="1" branch="False" />
+                <line number="64" hits="5" branch="False" />
+                <line number="65" hits="5" branch="False" />
+              </lines>
+            </method>
+            <method name="op_Subtraction" signature="(AirportSystem.Domain.ValueObjects.Money,AirportSystem.Domain.ValueObjects.Money)" line-rate="0.6" branch-rate="0.5" complexity="2">
+              <lines>
+                <line number="68" hits="1" branch="False" />
+                <line number="69" hits="1" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="20" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="70" hits="1" branch="False" />
+                <line number="71" hits="0" branch="False" />
+                <line number="72" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.Decimal,AirportSystem.Domain.Enums.Currency)" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="12" hits="192" branch="False" />
+                <line number="13" hits="192" branch="False" />
+                <line number="14" hits="192" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="21" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="15" hits="1" branch="False" />
+                <line number="16" hits="191" branch="False" />
+                <line number="17" hits="191" branch="False" />
+                <line number="18" hits="191" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="9" hits="104" branch="False" />
+            <line number="10" hits="79" branch="False" />
+            <line number="21" hits="1" branch="False" />
+            <line number="22" hits="1" branch="False" />
+            <line number="23" hits="1" branch="False" />
+            <line number="26" hits="2" branch="False" />
+            <line number="27" hits="2" branch="False" />
+            <line number="28" hits="2" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="32" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="29" hits="1" branch="False" />
+            <line number="30" hits="1" branch="False" />
+            <line number="31" hits="1" branch="False" />
+            <line number="34" hits="8" branch="False" />
+            <line number="35" hits="8" branch="False" />
+            <line number="36" hits="8" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="32" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="37" hits="0" branch="False" />
+            <line number="38" hits="8" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="71" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="39" hits="3" branch="False" />
+            <line number="40" hits="5" branch="False" />
+            <line number="41" hits="5" branch="False" />
+            <line number="44" hits="9" branch="True" condition-coverage="100% (4/4)">
+              <conditions>
+                <condition number="1" type="jump" coverage="100%" />
+                <condition number="20" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="45" hits="9" branch="False" />
+            <line number="46" hits="9" branch="False" />
+            <line number="49" hits="5" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="8" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="52" hits="2" branch="False" />
+            <line number="55" hits="3" branch="False" />
+            <line number="58" hits="1" branch="False" />
+            <line number="61" hits="6" branch="False" />
+            <line number="62" hits="6" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="20" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="63" hits="1" branch="False" />
+            <line number="64" hits="5" branch="False" />
+            <line number="65" hits="5" branch="False" />
+            <line number="68" hits="1" branch="False" />
+            <line number="69" hits="1" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="20" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="70" hits="1" branch="False" />
+            <line number="71" hits="0" branch="False" />
+            <line number="72" hits="0" branch="False" />
+            <line number="12" hits="192" branch="False" />
+            <line number="13" hits="192" branch="False" />
+            <line number="14" hits="192" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="21" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="15" hits="1" branch="False" />
+            <line number="16" hits="191" branch="False" />
+            <line number="17" hits="191" branch="False" />
+            <line number="18" hits="191" branch="False" />
+          </lines>
+        </class>
+        <class name="AirportSystem.Domain.ValueObjects.Passport" filename="Domain\ValueObjects\Passport.cs" line-rate="1" branch-rate="0.8" complexity="15">
+          <methods>
+            <method name="get_PassportNumber" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="8" hits="6" branch="False" />
+              </lines>
+            </method>
+            <method name="get_IssueCountry" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="9" hits="4" branch="False" />
+              </lines>
+            </method>
+            <method name="get_ExpiryDate" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="10" hits="2" branch="False" />
+              </lines>
+            </method>
+            <method name="IsValid" signature="(System.DateTime)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="22" hits="2" branch="False" />
+              </lines>
+            </method>
+            <method name="Equals" signature="(AirportSystem.Domain.ValueObjects.Passport)" line-rate="1" branch-rate="1" complexity="4">
+              <lines>
+                <line number="25" hits="3" branch="False" />
+                <line number="26" hits="4" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="7" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="27" hits="2" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="30" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="28" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="Equals" signature="(System.Object)" line-rate="1" branch-rate="0.5" complexity="2">
+              <lines>
+                <line number="30" hits="1" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="8" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+              </lines>
+            </method>
+            <method name="GetHashCode" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="31" hits="2" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.String,AirportSystem.Domain.ValueObjects.Country,System.DateTime)" line-rate="1" branch-rate="0.75" complexity="4">
+              <lines>
+                <line number="12" hits="6" branch="False" />
+                <line number="13" hits="6" branch="False" />
+                <line number="14" hits="6" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="16" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="15" hits="1" branch="False" />
+                <line number="17" hits="5" branch="False" />
+                <line number="18" hits="5" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="44" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="19" hits="5" branch="False" />
+                <line number="20" hits="5" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="8" hits="6" branch="False" />
+            <line number="9" hits="4" branch="False" />
+            <line number="10" hits="2" branch="False" />
+            <line number="22" hits="2" branch="False" />
+            <line number="25" hits="3" branch="False" />
+            <line number="26" hits="4" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="7" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="27" hits="2" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="30" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="28" hits="3" branch="False" />
+            <line number="30" hits="1" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="8" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="31" hits="2" branch="False" />
+            <line number="12" hits="6" branch="False" />
+            <line number="13" hits="6" branch="False" />
+            <line number="14" hits="6" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="16" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="15" hits="1" branch="False" />
+            <line number="17" hits="5" branch="False" />
+            <line number="18" hits="5" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="44" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="19" hits="5" branch="False" />
+            <line number="20" hits="5" branch="False" />
+          </lines>
+        </class>
+        <class name="AirportSystem.Domain.ValueObjects.Route" filename="Domain\ValueObjects\Route.cs" line-rate="0.7646999999999999" branch-rate="0.875" complexity="14">
+          <methods>
+            <method name="get_Destination" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="7" hits="10" branch="False" />
+              </lines>
+            </method>
+            <method name="get_DistanceKm" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="8" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="Print" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="20" hits="0" branch="False" />
+                <line number="21" hits="0" branch="False" />
+                <line number="22" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="Equals" signature="(AirportSystem.Domain.ValueObjects.Route)" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="25" hits="5" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="1" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+              </lines>
+            </method>
+            <method name="Equals" signature="(System.Object)" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="28" hits="3" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="8" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+              </lines>
+            </method>
+            <method name="GetHashCode" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="31" hits="2" branch="False" />
+              </lines>
+            </method>
+            <method name="op_Equality" signature="(AirportSystem.Domain.ValueObjects.Route,AirportSystem.Domain.ValueObjects.Route)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="34" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="op_Inequality" signature="(AirportSystem.Domain.ValueObjects.Route,AirportSystem.Domain.ValueObjects.Route)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="37" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(AirportSystem.Domain.ValueObjects.Country,System.Double)" line-rate="1" branch-rate="0.75" complexity="4">
+              <lines>
+                <line number="10" hits="25" branch="False" />
+                <line number="11" hits="25" branch="False" />
+                <line number="12" hits="25" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="25" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="13" hits="1" branch="False" />
+                <line number="15" hits="24" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="37" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="16" hits="24" branch="False" />
+                <line number="17" hits="24" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="7" hits="10" branch="False" />
+            <line number="8" hits="0" branch="False" />
+            <line number="20" hits="0" branch="False" />
+            <line number="21" hits="0" branch="False" />
+            <line number="22" hits="0" branch="False" />
+            <line number="25" hits="5" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="1" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="28" hits="3" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="8" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="31" hits="2" branch="False" />
+            <line number="34" hits="1" branch="False" />
+            <line number="37" hits="1" branch="False" />
+            <line number="10" hits="25" branch="False" />
+            <line number="11" hits="25" branch="False" />
+            <line number="12" hits="25" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="25" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="13" hits="1" branch="False" />
+            <line number="15" hits="24" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="37" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="16" hits="24" branch="False" />
+            <line number="17" hits="24" branch="False" />
+          </lines>
+        </class>
+        <class name="AirportSystem.Domain.Interfaces.IFlight" filename="Domain\Interfaces\IFlight.cs" line-rate="0" branch-rate="1" complexity="1">
+          <methods>
+            <method name="get_MaxWeightBaggage" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="13" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="13" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="AirportSystem.Domain.Exceptions.Route.InvalidDistanceException" filename="Domain\Exceptions\Route\InvalidDistanceException.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name=".ctor" signature="(System.Double)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="5" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="5" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="AirportSystem.Domain.Exceptions.Money.CurrencyMismatchException" filename="Domain\Exceptions\Money\CurrencyMismatchException.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name=".ctor" signature="(AirportSystem.Domain.Enums.Currency,AirportSystem.Domain.Enums.Currency)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="7" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="7" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="AirportSystem.Domain.Exceptions.Money.NegativeMoneyAmountException" filename="Domain\Exceptions\Money\NegativeMoneyAmountException.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name=".ctor" signature="(System.Decimal)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="5" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="5" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="AirportSystem.Domain.Exceptions.Money.NotEnoughMoneyException" filename="Domain\Exceptions\Money\NotEnoughMoneyException.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name=".ctor" signature="(System.Decimal,System.Decimal)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="5" hits="3" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="5" hits="3" branch="False" />
+          </lines>
+        </class>
+        <class name="AirportSystem.Domain.Exceptions.Country.InvalidCountryNameException" filename="Domain\Exceptions\Country\InvalidCountryNameException.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name=".ctor" signature="(System.String)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="5" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="5" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="AirportSystem.Domain.Entities.Baggage" filename="Domain\Entities\Baggage.cs" line-rate="0" branch-rate="0" complexity="9">
+          <methods>
+            <method name="get_WeightKg" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="5" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_BaggageId" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="6" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="Equals" signature="(AirportSystem.Domain.Entities.Baggage)" line-rate="0" branch-rate="0" complexity="2">
+              <lines>
+                <line number="16" hits="0" branch="False" />
+                <line number="17" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="7" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="18" hits="0" branch="False" />
+                <line number="19" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="Equals" signature="(System.Object)" line-rate="0" branch-rate="0" complexity="2">
+              <lines>
+                <line number="22" hits="0" branch="False" />
+                <line number="23" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="9" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="24" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="GetHashCode" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="27" hits="0" branch="False" />
+                <line number="28" hits="0" branch="False" />
+                <line number="29" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.Double)" line-rate="0" branch-rate="0" complexity="2">
+              <lines>
+                <line number="8" hits="0" branch="False" />
+                <line number="9" hits="0" branch="False" />
+                <line number="10" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="36" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="11" hits="0" branch="False" />
+                <line number="12" hits="0" branch="False" />
+                <line number="13" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="5" hits="0" branch="False" />
+            <line number="6" hits="0" branch="False" />
+            <line number="16" hits="0" branch="False" />
+            <line number="17" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="7" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="18" hits="0" branch="False" />
+            <line number="19" hits="0" branch="False" />
+            <line number="22" hits="0" branch="False" />
+            <line number="23" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="9" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="24" hits="0" branch="False" />
+            <line number="27" hits="0" branch="False" />
+            <line number="28" hits="0" branch="False" />
+            <line number="29" hits="0" branch="False" />
+            <line number="8" hits="0" branch="False" />
+            <line number="9" hits="0" branch="False" />
+            <line number="10" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="36" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="11" hits="0" branch="False" />
+            <line number="12" hits="0" branch="False" />
+            <line number="13" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="AirportSystem.Domain.Entities.Ticket" filename="Domain\Entities\Ticket.cs" line-rate="0.7777" branch-rate="1" complexity="8">
+          <methods>
+            <method name="get_Passenger" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="10" hits="6" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Flight" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="11" hits="7" branch="False" />
+              </lines>
+            </method>
+            <method name="IsBaggageAllowed" signature="(AirportSystem.Domain.Entities.Baggage)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="15" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Status" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="17" hits="12" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Money" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="18" hits="10" branch="False" />
+              </lines>
+            </method>
+            <method name="get_SeatNumber" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="19" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_BookingReference" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="20" hits="8" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(AirportSystem.Domain.Interfaces.IPassenger,AirportSystem.Domain.Interfaces.IFlight,AirportSystem.Domain.Enums.TicketStatus,AirportSystem.Domain.ValueObjects.Money)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="7" hits="6" branch="False" />
+                <line number="12" hits="6" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="10" hits="6" branch="False" />
+            <line number="11" hits="7" branch="False" />
+            <line number="15" hits="0" branch="False" />
+            <line number="17" hits="12" branch="False" />
+            <line number="18" hits="10" branch="False" />
+            <line number="19" hits="0" branch="False" />
+            <line number="20" hits="8" branch="False" />
+            <line number="7" hits="6" branch="False" />
+            <line number="12" hits="6" branch="False" />
+          </lines>
+        </class>
+        <class name="AirportSystem.Domain.Entities.Persons.FlightAttendant" filename="Domain\Entities\Persons\FlightAttendant.cs" line-rate="1" branch-rate="0.5" complexity="8">
+          <methods>
+            <method name="get_StaffId" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="16" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Department" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="17" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="get_ServiceLanguages" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="18" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="get_CertificationExpiry" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="19" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.String,System.Int32,AirportSystem.Domain.Enums.Gender,AirportSystem.Domain.ValueObjects.Money,System.Collections.Generic.List`1&lt;System.String&gt;,System.DateTime)" line-rate="1" branch-rate="0.5" complexity="4">
+              <lines>
+                <line number="14" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="16" hits="1" branch="False" />
+            <line number="17" hits="1" branch="False" />
+            <line number="18" hits="1" branch="False" />
+            <line number="19" hits="1" branch="False" />
+            <line number="14" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="AirportSystem.Domain.Entities.Persons.MaintenanceTechnician" filename="Domain\Entities\Persons\MaintenanceTechnician.cs" line-rate="1" branch-rate="1" complexity="5">
+          <methods>
+            <method name="get_StaffId" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="16" hits="4" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Department" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="17" hits="2" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Certification" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="18" hits="2" branch="False" />
+              </lines>
+            </method>
+            <method name="get_YearsOfExperience" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="19" hits="2" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.String,System.Int32,AirportSystem.Domain.Enums.Gender,AirportSystem.Domain.ValueObjects.Money,AirportSystem.Domain.Enums.MaintenanceCertification,System.Int32)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="14" hits="2" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="16" hits="4" branch="False" />
+            <line number="17" hits="2" branch="False" />
+            <line number="18" hits="2" branch="False" />
+            <line number="19" hits="2" branch="False" />
+            <line number="14" hits="2" branch="False" />
+          </lines>
+        </class>
+        <class name="AirportSystem.Domain.Entities.Persons.Person" filename="Domain\Entities\Persons\Person.cs" line-rate="0.6363" branch-rate="1" complexity="11">
+          <methods>
+            <method name="get_Id" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="10" hits="61" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Name" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="11" hits="40" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Age" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="12" hits="40" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Gender" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="13" hits="40" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Money" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="14" hits="77" branch="False" />
+              </lines>
+            </method>
+            <method name="get_DateOfBirth" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="15" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Address" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="16" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_ContactDetails" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="17" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Passport" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="19" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Currency" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="21" hits="8" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.String,System.Int32,AirportSystem.Domain.Enums.Gender,AirportSystem.Domain.ValueObjects.Money)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="7" hits="40" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="10" hits="61" branch="False" />
+            <line number="11" hits="40" branch="False" />
+            <line number="12" hits="40" branch="False" />
+            <line number="13" hits="40" branch="False" />
+            <line number="14" hits="77" branch="False" />
+            <line number="15" hits="0" branch="False" />
+            <line number="16" hits="0" branch="False" />
+            <line number="17" hits="0" branch="False" />
+            <line number="19" hits="0" branch="False" />
+            <line number="21" hits="8" branch="False" />
+            <line number="7" hits="40" branch="False" />
+          </lines>
+        </class>
+        <class name="AirportSystem.Domain.Entities.Persons.Pilot" filename="Domain\Entities\Persons\Pilot.cs" line-rate="0.5" branch-rate="0" complexity="6">
+          <methods>
+            <method name="get_FlightHours" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="10" hits="20" branch="False" />
+              </lines>
+            </method>
+            <method name="get_StaffId" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="11" hits="20" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Department" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="12" hits="20" branch="False" />
+              </lines>
+            </method>
+            <method name="AddFlightHours" signature="(System.UInt32)" line-rate="0" branch-rate="0" complexity="2">
+              <lines>
+                <line number="14" hits="0" branch="False" />
+                <line number="15" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="7" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="16" hits="0" branch="False" />
+                <line number="17" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.String,System.Int32,AirportSystem.Domain.Enums.Gender,AirportSystem.Domain.ValueObjects.Money,System.UInt32)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="8" hits="20" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="10" hits="20" branch="False" />
+            <line number="11" hits="20" branch="False" />
+            <line number="12" hits="20" branch="False" />
+            <line number="14" hits="0" branch="False" />
+            <line number="15" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="7" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="16" hits="0" branch="False" />
+            <line number="17" hits="0" branch="False" />
+            <line number="8" hits="20" branch="False" />
+          </lines>
+        </class>
+        <class name="AirportSystem.Domain.Entities.Airplanes.Airplane" filename="Domain\Entities\Airplanes\Airplane.cs" line-rate="1" branch-rate="1" complexity="12">
+          <methods>
+            <method name="get_Id" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="15" hits="28" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Model" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="16" hits="27" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Capacity" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="17" hits="38" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Price" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="18" hits="27" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Status" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="19" hits="57" branch="False" />
+              </lines>
+            </method>
+            <method name="get_MaxWeightBaggage" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="20" hits="26" branch="False" />
+              </lines>
+            </method>
+            <method name="get_MaintenanceHistory" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="22" hits="2" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Specs" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="23" hits="26" branch="False" />
+              </lines>
+            </method>
+            <method name="get_DateOfManufacture" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="24" hits="26" branch="False" />
+              </lines>
+            </method>
+            <method name="AddMaintenanceRecord" signature="(AirportSystem.Domain.ValueObjects.MaintenanceRecord)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="27" hits="1" branch="False" />
+                <line number="28" hits="1" branch="False" />
+                <line number="29" hits="1" branch="False" />
+                <line number="30" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="Print" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="33" hits="1" branch="False" />
+                <line number="34" hits="1" branch="False" />
+                <line number="35" hits="1" branch="False" />
+                <line number="36" hits="1" branch="False" />
+                <line number="37" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.String,System.UInt32,System.UInt32,AirportSystem.Domain.ValueObjects.Money,AirportSystem.Domain.Enums.AirplaneStatus)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="7" hits="26" branch="False" />
+                <line number="8" hits="26" branch="False" />
+                <line number="9" hits="26" branch="False" />
+                <line number="10" hits="26" branch="False" />
+                <line number="11" hits="26" branch="False" />
+                <line number="12" hits="26" branch="False" />
+                <line number="21" hits="26" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="15" hits="28" branch="False" />
+            <line number="16" hits="27" branch="False" />
+            <line number="17" hits="38" branch="False" />
+            <line number="18" hits="27" branch="False" />
+            <line number="19" hits="57" branch="False" />
+            <line number="20" hits="26" branch="False" />
+            <line number="22" hits="2" branch="False" />
+            <line number="23" hits="26" branch="False" />
+            <line number="24" hits="26" branch="False" />
+            <line number="27" hits="1" branch="False" />
+            <line number="28" hits="1" branch="False" />
+            <line number="29" hits="1" branch="False" />
+            <line number="30" hits="1" branch="False" />
+            <line number="33" hits="1" branch="False" />
+            <line number="34" hits="1" branch="False" />
+            <line number="35" hits="1" branch="False" />
+            <line number="36" hits="1" branch="False" />
+            <line number="37" hits="1" branch="False" />
+            <line number="7" hits="26" branch="False" />
+            <line number="8" hits="26" branch="False" />
+            <line number="9" hits="26" branch="False" />
+            <line number="10" hits="26" branch="False" />
+            <line number="11" hits="26" branch="False" />
+            <line number="12" hits="26" branch="False" />
+            <line number="21" hits="26" branch="False" />
+          </lines>
+        </class>
+        <class name="AirportSystem.Domain.Aggregates.AirportCompany" filename="Domain\Aggregates\AirportCompany.cs" line-rate="0.9229999999999999" branch-rate="1" complexity="7">
+          <methods>
+            <method name="get_RegistrationNumber" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="8" hits="39" branch="False" />
+              </lines>
+            </method>
+            <method name="get_TaxId" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="9" hits="39" branch="False" />
+              </lines>
+            </method>
+            <method name="get_CompanyAddress" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="10" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Balance" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="11" hits="63" branch="False" />
+              </lines>
+            </method>
+            <method name="AddBalance" signature="(AirportSystem.Domain.ValueObjects.Money)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="14" hits="5" branch="False" />
+                <line number="15" hits="5" branch="False" />
+                <line number="16" hits="5" branch="False" />
+                <line number="17" hits="5" branch="False" />
+              </lines>
+            </method>
+            <method name="SubtractBalance" signature="(AirportSystem.Domain.ValueObjects.Money)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="20" hits="3" branch="False" />
+                <line number="21" hits="3" branch="False" />
+                <line number="22" hits="3" branch="False" />
+                <line number="23" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(AirportSystem.Domain.ValueObjects.Money)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="6" hits="39" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="8" hits="39" branch="False" />
+            <line number="9" hits="39" branch="False" />
+            <line number="10" hits="0" branch="False" />
+            <line number="11" hits="63" branch="False" />
+            <line number="14" hits="5" branch="False" />
+            <line number="15" hits="5" branch="False" />
+            <line number="16" hits="5" branch="False" />
+            <line number="17" hits="5" branch="False" />
+            <line number="20" hits="3" branch="False" />
+            <line number="21" hits="3" branch="False" />
+            <line number="22" hits="3" branch="False" />
+            <line number="23" hits="1" branch="False" />
+            <line number="6" hits="39" branch="False" />
+          </lines>
+        </class>
+        <class name="AirportSystem.Domain.Aggregates.Flight" filename="Domain\Aggregates\Flight.cs" line-rate="0.8275" branch-rate="0.8332999999999999" complexity="18">
+          <methods>
+            <method name="get_Airplane" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="14" hits="45" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Crew" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="15" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Passengers" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="16" hits="11" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Route" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="17" hits="19" branch="False" />
+              </lines>
+            </method>
+            <method name="get_TicketPrice" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="18" hits="33" branch="False" />
+              </lines>
+            </method>
+            <method name="get_FlightId" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="19" hits="57" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Status" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="20" hits="39" branch="False" />
+              </lines>
+            </method>
+            <method name="get_ScheduledDeparture" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="21" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_ScheduledArrival" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="22" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Terminal" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="23" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Gate" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="24" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="Print" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="28" hits="1" branch="False" />
+                <line number="29" hits="1" branch="False" />
+                <line number="30" hits="1" branch="False" />
+                <line number="31" hits="1" branch="False" />
+                <line number="32" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="AddPassenger" signature="(AirportSystem.Domain.Interfaces.IPassenger)" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="35" hits="5" branch="False" />
+                <line number="36" hits="6" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="32" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="37" hits="4" branch="False" />
+                <line number="38" hits="4" branch="False" />
+                <line number="39" hits="5" branch="False" />
+              </lines>
+            </method>
+            <method name="UpdateTicketPrice" signature="(AirportSystem.Domain.ValueObjects.Money)" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="42" hits="2" branch="False" />
+                <line number="43" hits="3" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="15" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="44" hits="1" branch="False" />
+                <line number="45" hits="2" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(AirportSystem.Domain.Interfaces.IAirplane,System.Collections.Generic.List`1&lt;AirportSystem.Domain.Interfaces.IPilot&gt;,AirportSystem.Domain.ValueObjects.Route,AirportSystem.Domain.ValueObjects.Money)" line-rate="1" branch-rate="0.5" complexity="2">
+              <lines>
+                <line number="7" hits="19" branch="False" />
+                <line number="9" hits="19" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="3" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="10" hits="19" branch="False" />
+                <line number="12" hits="19" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="14" hits="45" branch="False" />
+            <line number="15" hits="0" branch="False" />
+            <line number="16" hits="11" branch="False" />
+            <line number="17" hits="19" branch="False" />
+            <line number="18" hits="33" branch="False" />
+            <line number="19" hits="57" branch="False" />
+            <line number="20" hits="39" branch="False" />
+            <line number="21" hits="0" branch="False" />
+            <line number="22" hits="0" branch="False" />
+            <line number="23" hits="0" branch="False" />
+            <line number="24" hits="0" branch="False" />
+            <line number="28" hits="1" branch="False" />
+            <line number="29" hits="1" branch="False" />
+            <line number="30" hits="1" branch="False" />
+            <line number="31" hits="1" branch="False" />
+            <line number="32" hits="1" branch="False" />
+            <line number="35" hits="5" branch="False" />
+            <line number="36" hits="6" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="32" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="37" hits="4" branch="False" />
+            <line number="38" hits="4" branch="False" />
+            <line number="39" hits="5" branch="False" />
+            <line number="42" hits="2" branch="False" />
+            <line number="43" hits="3" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="15" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="44" hits="1" branch="False" />
+            <line number="45" hits="2" branch="False" />
+            <line number="7" hits="19" branch="False" />
+            <line number="9" hits="19" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="3" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="10" hits="19" branch="False" />
+            <line number="12" hits="19" branch="False" />
+          </lines>
+        </class>
+        <class name="AirportSystem.Domain.Aggregates.Passenger" filename="Domain\Aggregates\Passenger.cs" line-rate="0.7585999999999999" branch-rate="0.8" complexity="14">
+          <methods>
+            <method name="get_Tickets" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="12" hits="30" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Baggage" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="13" hits="25" branch="False" />
+              </lines>
+            </method>
+            <method name="AddTicket" signature="(AirportSystem.Domain.Interfaces.ITicket)" line-rate="0.7" branch-rate="0.5" complexity="4">
+              <lines>
+                <line number="16" hits="4" branch="False" />
+                <line number="17" hits="4" branch="False" />
+                <line number="18" hits="4" branch="True" condition-coverage="50% (2/4)">
+                  <conditions>
+                    <condition number="19" type="jump" coverage="50%" />
+                    <condition number="41" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="19" hits="0" branch="False" />
+                <line number="20" hits="0" branch="False" />
+                <line number="21" hits="0" branch="False" />
+                <line number="24" hits="4" branch="False" />
+                <line number="25" hits="4" branch="False" />
+                <line number="26" hits="4" branch="False" />
+                <line number="27" hits="4" branch="False" />
+              </lines>
+            </method>
+            <method name="RemoveTicket" signature="(AirportSystem.Domain.Interfaces.ITicket)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="30" hits="1" branch="False" />
+                <line number="31" hits="1" branch="False" />
+                <line number="32" hits="1" branch="False" />
+                <line number="33" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="AssignBaggage" signature="(AirportSystem.Domain.Entities.Baggage)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="36" hits="0" branch="False" />
+                <line number="37" hits="0" branch="False" />
+                <line number="38" hits="0" branch="False" />
+                <line number="39" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="Pay" signature="(AirportSystem.Domain.ValueObjects.Money)" line-rate="1" branch-rate="1" complexity="4">
+              <lines>
+                <line number="42" hits="8" branch="False" />
+                <line number="43" hits="8" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="36" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="44" hits="1" branch="False" />
+                <line number="45" hits="7" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="66" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="46" hits="3" branch="False" />
+                <line number="48" hits="4" branch="False" />
+                <line number="49" hits="4" branch="False" />
+                <line number="50" hits="8" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.String,System.Int32,AirportSystem.Domain.Enums.Gender,AirportSystem.Domain.ValueObjects.Money,System.Collections.Generic.List`1&lt;AirportSystem.Domain.Interfaces.ITicket&gt;,AirportSystem.Domain.Entities.Baggage)" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="10" hits="17" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="12" hits="30" branch="False" />
+            <line number="13" hits="25" branch="False" />
+            <line number="16" hits="4" branch="False" />
+            <line number="17" hits="4" branch="False" />
+            <line number="18" hits="4" branch="True" condition-coverage="50% (2/4)">
+              <conditions>
+                <condition number="19" type="jump" coverage="50%" />
+                <condition number="41" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="19" hits="0" branch="False" />
+            <line number="20" hits="0" branch="False" />
+            <line number="21" hits="0" branch="False" />
+            <line number="24" hits="4" branch="False" />
+            <line number="25" hits="4" branch="False" />
+            <line number="26" hits="4" branch="False" />
+            <line number="27" hits="4" branch="False" />
+            <line number="30" hits="1" branch="False" />
+            <line number="31" hits="1" branch="False" />
+            <line number="32" hits="1" branch="False" />
+            <line number="33" hits="1" branch="False" />
+            <line number="36" hits="0" branch="False" />
+            <line number="37" hits="0" branch="False" />
+            <line number="38" hits="0" branch="False" />
+            <line number="39" hits="0" branch="False" />
+            <line number="42" hits="8" branch="False" />
+            <line number="43" hits="8" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="36" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="44" hits="1" branch="False" />
+            <line number="45" hits="7" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="66" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="46" hits="3" branch="False" />
+            <line number="48" hits="4" branch="False" />
+            <line number="49" hits="4" branch="False" />
+            <line number="50" hits="8" branch="False" />
+            <line number="10" hits="17" branch="False" />
+          </lines>
+        </class>
+        <class name="AirportSystem.Application.Services.AirplaneMaintenanceService" filename="Application\Services\AirplaneMaintenanceService.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="LogMaintenanceRecord" signature="(AirportSystem.Domain.Interfaces.IAirplane,AirportSystem.Domain.Interfaces.IMaintenanceTechnician,System.String,AirportSystem.Domain.ValueObjects.Money)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="14" hits="1" branch="False" />
+                <line number="15" hits="1" branch="False" />
+                <line number="16" hits="1" branch="False" />
+                <line number="17" hits="1" branch="False" />
+                <line number="18" hits="1" branch="False" />
+                <line number="20" hits="1" branch="False" />
+                <line number="22" hits="1" branch="False" />
+                <line number="24" hits="1" branch="False" />
+                <line number="25" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="14" hits="1" branch="False" />
+            <line number="15" hits="1" branch="False" />
+            <line number="16" hits="1" branch="False" />
+            <line number="17" hits="1" branch="False" />
+            <line number="18" hits="1" branch="False" />
+            <line number="20" hits="1" branch="False" />
+            <line number="22" hits="1" branch="False" />
+            <line number="24" hits="1" branch="False" />
+            <line number="25" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="AirportSystem.Application.Services.BookingService" filename="Application\Services\BookingService.cs" line-rate="0.75" branch-rate="0.7777" complexity="19">
+          <methods>
+            <method name="PrintAllFlights" signature="()" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="15" hits="1" branch="False" />
+                <line number="16" hits="1" branch="False" />
+                <line number="17" hits="5" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="45" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="18" hits="1" branch="False" />
+                <line number="19" hits="1" branch="False" />
+                <line number="20" hits="1" branch="False" />
+                <line number="21" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="BuyTicket" signature="(System.Guid,System.Guid)" line-rate="0.64" branch-rate="0.75" complexity="16">
+              <lines>
+                <line number="24" hits="8" branch="False" />
+                <line number="25" hits="8" branch="False" />
+                <line number="26" hits="8" branch="False" />
+                <line number="28" hits="8" branch="True" condition-coverage="100% (4/4)">
+                  <conditions>
+                    <condition number="28" type="jump" coverage="100%" />
+                    <condition number="39" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="29" hits="2" branch="False" />
+                <line number="31" hits="6" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="82" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="32" hits="2" branch="False" />
+                <line number="34" hits="4" branch="False" />
+                <line number="36" hits="4" branch="True" condition-coverage="50% (2/4)">
+                  <conditions>
+                    <condition number="113" type="jump" coverage="50%" />
+                    <condition number="137" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="37" hits="0" branch="False" />
+                <line number="38" hits="0" branch="False" />
+                <line number="41" hits="4" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="173" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="42" hits="1" branch="False" />
+                <line number="43" hits="1" branch="False" />
+                <line number="46" hits="3" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="195" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="47" hits="0" branch="False" />
+                <line number="48" hits="0" branch="False" />
+                <line number="49" hits="0" branch="False" />
+                <line number="52" hits="3" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="236" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="53" hits="0" branch="False" />
+                <line number="54" hits="0" branch="False" />
+                <line number="55" hits="0" branch="False" />
+                <line number="56" hits="0" branch="False" />
+                <line number="59" hits="3" branch="False" />
+                <line number="60" hits="8" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(AirportSystem.Domain.Repositories.IFlightRepository,AirportSystem.Domain.Repositories.IPassengerRepository,AirportSystem.Application.Interfaces.IFinancialService)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="8" hits="38" branch="False" />
+                <line number="9" hits="38" branch="False" />
+                <line number="10" hits="38" branch="False" />
+                <line number="11" hits="38" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="15" hits="1" branch="False" />
+            <line number="16" hits="1" branch="False" />
+            <line number="17" hits="5" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="45" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="18" hits="1" branch="False" />
+            <line number="19" hits="1" branch="False" />
+            <line number="20" hits="1" branch="False" />
+            <line number="21" hits="1" branch="False" />
+            <line number="24" hits="8" branch="False" />
+            <line number="25" hits="8" branch="False" />
+            <line number="26" hits="8" branch="False" />
+            <line number="28" hits="8" branch="True" condition-coverage="100% (4/4)">
+              <conditions>
+                <condition number="28" type="jump" coverage="100%" />
+                <condition number="39" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="29" hits="2" branch="False" />
+            <line number="31" hits="6" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="82" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="32" hits="2" branch="False" />
+            <line number="34" hits="4" branch="False" />
+            <line number="36" hits="4" branch="True" condition-coverage="50% (2/4)">
+              <conditions>
+                <condition number="113" type="jump" coverage="50%" />
+                <condition number="137" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="37" hits="0" branch="False" />
+            <line number="38" hits="0" branch="False" />
+            <line number="41" hits="4" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="173" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="42" hits="1" branch="False" />
+            <line number="43" hits="1" branch="False" />
+            <line number="46" hits="3" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="195" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="47" hits="0" branch="False" />
+            <line number="48" hits="0" branch="False" />
+            <line number="49" hits="0" branch="False" />
+            <line number="52" hits="3" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="236" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="53" hits="0" branch="False" />
+            <line number="54" hits="0" branch="False" />
+            <line number="55" hits="0" branch="False" />
+            <line number="56" hits="0" branch="False" />
+            <line number="59" hits="3" branch="False" />
+            <line number="60" hits="8" branch="False" />
+            <line number="8" hits="38" branch="False" />
+            <line number="9" hits="38" branch="False" />
+            <line number="10" hits="38" branch="False" />
+            <line number="11" hits="38" branch="False" />
+          </lines>
+        </class>
+        <class name="AirportSystem.Application.Services.FinancialService" filename="Application\Services\FinancialService.cs" line-rate="1" branch-rate="1" complexity="4">
+          <methods>
+            <method name="ProcessPayment" signature="(AirportSystem.Domain.Interfaces.IPassenger,AirportSystem.Domain.ValueObjects.Money)" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="13" hits="6" branch="False" />
+                <line number="14" hits="6" branch="False" />
+                <line number="15" hits="6" branch="False" />
+                <line number="17" hits="6" branch="False" />
+                <line number="18" hits="8" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="49" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="20" hits="4" branch="False" />
+                <line number="21" hits="4" branch="False" />
+                <line number="22" hits="6" branch="False" />
+              </lines>
+            </method>
+            <method name="ProcessRefund" signature="(AirportSystem.Domain.Interfaces.IPassenger,AirportSystem.Domain.ValueObjects.Money)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="25" hits="2" branch="False" />
+                <line number="26" hits="2" branch="False" />
+                <line number="27" hits="2" branch="False" />
+                <line number="29" hits="2" branch="False" />
+                <line number="32" hits="2" branch="False" />
+                <line number="33" hits="2" branch="False" />
+                <line number="34" hits="1" branch="False" />
+                <line number="36" hits="1" branch="False" />
+                <line number="38" hits="1" branch="False" />
+                <line number="39" hits="1" branch="False" />
+                <line number="40" hits="1" branch="False" />
+                <line number="42" hits="2" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(AirportSystem.Domain.Repositories.IAirportCompanyRepository)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="8" hits="38" branch="False" />
+                <line number="9" hits="38" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="13" hits="6" branch="False" />
+            <line number="14" hits="6" branch="False" />
+            <line number="15" hits="6" branch="False" />
+            <line number="17" hits="6" branch="False" />
+            <line number="18" hits="8" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="49" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="20" hits="4" branch="False" />
+            <line number="21" hits="4" branch="False" />
+            <line number="22" hits="6" branch="False" />
+            <line number="25" hits="2" branch="False" />
+            <line number="26" hits="2" branch="False" />
+            <line number="27" hits="2" branch="False" />
+            <line number="29" hits="2" branch="False" />
+            <line number="32" hits="2" branch="False" />
+            <line number="33" hits="2" branch="False" />
+            <line number="34" hits="1" branch="False" />
+            <line number="36" hits="1" branch="False" />
+            <line number="38" hits="1" branch="False" />
+            <line number="39" hits="1" branch="False" />
+            <line number="40" hits="1" branch="False" />
+            <line number="42" hits="2" branch="False" />
+            <line number="8" hits="38" branch="False" />
+            <line number="9" hits="38" branch="False" />
+          </lines>
+        </class>
+        <class name="AirportSystem.Application.Services.FleetManagementService" filename="Application\Services\FleetManagementService.cs" line-rate="1" branch-rate="1" complexity="6">
+          <methods>
+            <method name="ScheduleMaintenance" signature="(AirportSystem.Domain.Interfaces.IAirplane)" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="15" hits="4" branch="False" />
+                <line number="16" hits="4" branch="False" />
+                <line number="17" hits="4" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="32" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="18" hits="1" branch="False" />
+                <line number="19" hits="1" branch="False" />
+                <line number="20" hits="1" branch="False" />
+                <line number="23" hits="3" branch="False" />
+                <line number="24" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="CompleteMaintenance" signature="(AirportSystem.Domain.Interfaces.IAirplane)" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="27" hits="2" branch="False" />
+                <line number="28" hits="2" branch="False" />
+                <line number="29" hits="2" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="32" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="30" hits="1" branch="False" />
+                <line number="31" hits="1" branch="False" />
+                <line number="32" hits="1" branch="False" />
+                <line number="33" hits="2" branch="False" />
+              </lines>
+            </method>
+            <method name="PurchaseAirplaneWithSpecs" signature="(System.String,System.UInt32,System.UInt32,AirportSystem.Domain.ValueObjects.Money,AirportSystem.Domain.ValueObjects.AirplaneSpecs)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="41" hits="26" branch="False" />
+                <line number="42" hits="26" branch="False" />
+                <line number="43" hits="26" branch="False" />
+                <line number="45" hits="26" branch="False" />
+                <line number="46" hits="26" branch="False" />
+                <line number="47" hits="26" branch="False" />
+                <line number="48" hits="26" branch="False" />
+                <line number="49" hits="26" branch="False" />
+                <line number="50" hits="26" branch="False" />
+                <line number="51" hits="26" branch="False" />
+                <line number="52" hits="26" branch="False" />
+                <line number="53" hits="26" branch="False" />
+                <line number="54" hits="26" branch="False" />
+                <line number="56" hits="26" branch="False" />
+                <line number="57" hits="26" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(AirportSystem.Domain.Repositories.IAirplaneRepository)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="10" hits="38" branch="False" />
+                <line number="11" hits="38" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="15" hits="4" branch="False" />
+            <line number="16" hits="4" branch="False" />
+            <line number="17" hits="4" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="32" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="18" hits="1" branch="False" />
+            <line number="19" hits="1" branch="False" />
+            <line number="20" hits="1" branch="False" />
+            <line number="23" hits="3" branch="False" />
+            <line number="24" hits="3" branch="False" />
+            <line number="27" hits="2" branch="False" />
+            <line number="28" hits="2" branch="False" />
+            <line number="29" hits="2" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="32" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="30" hits="1" branch="False" />
+            <line number="31" hits="1" branch="False" />
+            <line number="32" hits="1" branch="False" />
+            <line number="33" hits="2" branch="False" />
+            <line number="41" hits="26" branch="False" />
+            <line number="42" hits="26" branch="False" />
+            <line number="43" hits="26" branch="False" />
+            <line number="45" hits="26" branch="False" />
+            <line number="46" hits="26" branch="False" />
+            <line number="47" hits="26" branch="False" />
+            <line number="48" hits="26" branch="False" />
+            <line number="49" hits="26" branch="False" />
+            <line number="50" hits="26" branch="False" />
+            <line number="51" hits="26" branch="False" />
+            <line number="52" hits="26" branch="False" />
+            <line number="53" hits="26" branch="False" />
+            <line number="54" hits="26" branch="False" />
+            <line number="56" hits="26" branch="False" />
+            <line number="57" hits="26" branch="False" />
+            <line number="10" hits="38" branch="False" />
+            <line number="11" hits="38" branch="False" />
+          </lines>
+        </class>
+        <class name="AirportSystem.Application.Services.FlightManagementService" filename="Application\Services\FlightManagementService.cs" line-rate="1" branch-rate="1" complexity="6">
+          <methods>
+            <method name="CreateFlight" signature="(AirportSystem.Domain.Interfaces.IAirplane,System.Collections.Generic.List`1&lt;AirportSystem.Domain.Interfaces.IPilot&gt;,AirportSystem.Domain.ValueObjects.Route,AirportSystem.Domain.ValueObjects.Money)" line-rate="1" branch-rate="1" complexity="4">
+              <lines>
+                <line number="14" hits="21" branch="False" />
+                <line number="15" hits="21" branch="False" />
+                <line number="16" hits="21" branch="False" />
+                <line number="17" hits="21" branch="False" />
+                <line number="18" hits="21" branch="True" condition-coverage="100% (4/4)">
+                  <conditions>
+                    <condition number="39" type="jump" coverage="100%" />
+                    <condition number="55" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="19" hits="2" branch="False" />
+                <line number="21" hits="19" branch="False" />
+                <line number="22" hits="19" branch="False" />
+                <line number="23" hits="19" branch="False" />
+                <line number="24" hits="19" branch="False" />
+              </lines>
+            </method>
+            <method name="UpdateTicketPrice" signature="(AirportSystem.Domain.Interfaces.IFlight,AirportSystem.Domain.ValueObjects.Money)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="27" hits="2" branch="False" />
+                <line number="28" hits="2" branch="False" />
+                <line number="29" hits="2" branch="False" />
+                <line number="31" hits="2" branch="False" />
+                <line number="32" hits="2" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(AirportSystem.Domain.Repositories.IFlightRepository)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="9" hits="38" branch="False" />
+                <line number="10" hits="38" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="14" hits="21" branch="False" />
+            <line number="15" hits="21" branch="False" />
+            <line number="16" hits="21" branch="False" />
+            <line number="17" hits="21" branch="False" />
+            <line number="18" hits="21" branch="True" condition-coverage="100% (4/4)">
+              <conditions>
+                <condition number="39" type="jump" coverage="100%" />
+                <condition number="55" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="19" hits="2" branch="False" />
+            <line number="21" hits="19" branch="False" />
+            <line number="22" hits="19" branch="False" />
+            <line number="23" hits="19" branch="False" />
+            <line number="24" hits="19" branch="False" />
+            <line number="27" hits="2" branch="False" />
+            <line number="28" hits="2" branch="False" />
+            <line number="29" hits="2" branch="False" />
+            <line number="31" hits="2" branch="False" />
+            <line number="32" hits="2" branch="False" />
+            <line number="9" hits="38" branch="False" />
+            <line number="10" hits="38" branch="False" />
+          </lines>
+        </class>
+        <class name="AirportSystem.Application.Services.FlightOperationsService" filename="Application\Services\FlightOperationsService.cs" line-rate="1" branch-rate="1" complexity="17">
+          <methods>
+            <method name="DepartFlight" signature="(System.Guid)" line-rate="1" branch-rate="1" complexity="6">
+              <lines>
+                <line number="10" hits="8" branch="False" />
+                <line number="11" hits="8" branch="False" />
+                <line number="12" hits="8" branch="True" condition-coverage="100% (4/4)">
+                  <conditions>
+                    <condition number="15" type="jump" coverage="100%" />
+                    <condition number="31" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="13" hits="2" branch="False" />
+                <line number="14" hits="2" branch="False" />
+                <line number="17" hits="6" branch="False" />
+                <line number="18" hits="6" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="82" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="19" hits="1" branch="False" />
+                <line number="20" hits="1" branch="False" />
+                <line number="23" hits="5" branch="False" />
+                <line number="24" hits="5" branch="False" />
+                <line number="25" hits="5" branch="False" />
+                <line number="26" hits="8" branch="False" />
+              </lines>
+            </method>
+            <method name="ArriveFlight" signature="(System.Guid)" line-rate="1" branch-rate="1" complexity="10">
+              <lines>
+                <line number="29" hits="4" branch="False" />
+                <line number="30" hits="4" branch="False" />
+                <line number="31" hits="4" branch="True" condition-coverage="100% (4/4)">
+                  <conditions>
+                    <condition number="33" type="jump" coverage="100%" />
+                    <condition number="52" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="32" hits="2" branch="False" />
+                <line number="33" hits="2" branch="False" />
+                <line number="36" hits="2" branch="False" />
+                <line number="37" hits="2" branch="False" />
+                <line number="39" hits="2" branch="False" />
+                <line number="41" hits="8" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="194" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="42" hits="1" branch="False" />
+                <line number="43" hits="2" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="131" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="44" hits="1" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="173" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="45" hits="1" branch="False" />
+                <line number="46" hits="1" branch="False" />
+                <line number="47" hits="1" branch="False" />
+                <line number="48" hits="1" branch="False" />
+                <line number="50" hits="2" branch="False" />
+                <line number="51" hits="4" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(AirportSystem.Domain.Repositories.IFlightRepository)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="7" hits="38" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="10" hits="8" branch="False" />
+            <line number="11" hits="8" branch="False" />
+            <line number="12" hits="8" branch="True" condition-coverage="100% (4/4)">
+              <conditions>
+                <condition number="15" type="jump" coverage="100%" />
+                <condition number="31" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="13" hits="2" branch="False" />
+            <line number="14" hits="2" branch="False" />
+            <line number="17" hits="6" branch="False" />
+            <line number="18" hits="6" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="82" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="19" hits="1" branch="False" />
+            <line number="20" hits="1" branch="False" />
+            <line number="23" hits="5" branch="False" />
+            <line number="24" hits="5" branch="False" />
+            <line number="25" hits="5" branch="False" />
+            <line number="26" hits="8" branch="False" />
+            <line number="29" hits="4" branch="False" />
+            <line number="30" hits="4" branch="False" />
+            <line number="31" hits="4" branch="True" condition-coverage="100% (4/4)">
+              <conditions>
+                <condition number="33" type="jump" coverage="100%" />
+                <condition number="52" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="32" hits="2" branch="False" />
+            <line number="33" hits="2" branch="False" />
+            <line number="36" hits="2" branch="False" />
+            <line number="37" hits="2" branch="False" />
+            <line number="39" hits="2" branch="False" />
+            <line number="41" hits="8" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="194" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="42" hits="1" branch="False" />
+            <line number="43" hits="2" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="131" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="44" hits="1" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="173" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="45" hits="1" branch="False" />
+            <line number="46" hits="1" branch="False" />
+            <line number="47" hits="1" branch="False" />
+            <line number="48" hits="1" branch="False" />
+            <line number="50" hits="2" branch="False" />
+            <line number="51" hits="4" branch="False" />
+            <line number="7" hits="38" branch="False" />
+          </lines>
+        </class>
+        <class name="AirportSystem.Application.Services.HumanResourcesService" filename="Application\Services\HumanResourcesService.cs" line-rate="1" branch-rate="1" complexity="4">
+          <methods>
+            <method name="HireFlightAttendant" signature="(System.String,System.Int32,AirportSystem.Domain.Enums.Gender,AirportSystem.Domain.ValueObjects.Money,System.Collections.Generic.List`1&lt;System.String&gt;,System.DateTime)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="19" hits="1" branch="False" />
+                <line number="20" hits="1" branch="False" />
+                <line number="21" hits="1" branch="False" />
+                <line number="22" hits="1" branch="False" />
+                <line number="23" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="HireMaintenanceTechnician" signature="(System.String,System.Int32,AirportSystem.Domain.Enums.Gender,AirportSystem.Domain.ValueObjects.Money,AirportSystem.Domain.Enums.MaintenanceCertification,System.Int32)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="28" hits="2" branch="False" />
+                <line number="29" hits="2" branch="False" />
+                <line number="30" hits="2" branch="False" />
+                <line number="31" hits="2" branch="False" />
+                <line number="32" hits="2" branch="False" />
+              </lines>
+            </method>
+            <method name="HirePilot" signature="(System.String,System.Int32,AirportSystem.Domain.Enums.Gender,AirportSystem.Domain.ValueObjects.Money)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="36" hits="20" branch="False" />
+                <line number="37" hits="20" branch="False" />
+                <line number="38" hits="20" branch="False" />
+                <line number="39" hits="20" branch="False" />
+                <line number="40" hits="20" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(AirportSystem.Domain.Repositories.IFlightAttendantRepository,AirportSystem.Domain.Repositories.IMaintenanceTechnicianRepository,AirportSystem.Domain.Repositories.IPilotRepository)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="10" hits="38" branch="False" />
+                <line number="11" hits="38" branch="False" />
+                <line number="12" hits="38" branch="False" />
+                <line number="13" hits="38" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="19" hits="1" branch="False" />
+            <line number="20" hits="1" branch="False" />
+            <line number="21" hits="1" branch="False" />
+            <line number="22" hits="1" branch="False" />
+            <line number="23" hits="1" branch="False" />
+            <line number="28" hits="2" branch="False" />
+            <line number="29" hits="2" branch="False" />
+            <line number="30" hits="2" branch="False" />
+            <line number="31" hits="2" branch="False" />
+            <line number="32" hits="2" branch="False" />
+            <line number="36" hits="20" branch="False" />
+            <line number="37" hits="20" branch="False" />
+            <line number="38" hits="20" branch="False" />
+            <line number="39" hits="20" branch="False" />
+            <line number="40" hits="20" branch="False" />
+            <line number="10" hits="38" branch="False" />
+            <line number="11" hits="38" branch="False" />
+            <line number="12" hits="38" branch="False" />
+            <line number="13" hits="38" branch="False" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+  </packages>
+</coverage>
