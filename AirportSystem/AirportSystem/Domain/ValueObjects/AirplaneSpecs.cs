@@ -3,18 +3,11 @@ namespace AirportSystem.Domain.ValueObjects;
 /// <summary>
 /// Технические характеристики самолета.
 /// </summary>
-public sealed class AirplaneSpecs : IEquatable<AirplaneSpecs>
+public sealed class AirplaneSpecs(string manufacturer, int modelYear, string engineType) : IEquatable<AirplaneSpecs>
 {
-    public string Manufacturer { get; }
-    public int ModelYear { get; }
-    public string EngineType { get; }
-
-    public AirplaneSpecs(string manufacturer, int modelYear, string engineType)
-    {
-        Manufacturer = manufacturer;
-        ModelYear = modelYear;
-        EngineType = engineType;
-    }
+    public string Manufacturer { get; } = manufacturer;
+    public int ModelYear { get; } = modelYear;
+    public string EngineType { get; } = engineType;
 
     public bool Equals(AirplaneSpecs? other)
     {

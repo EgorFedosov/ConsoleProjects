@@ -49,13 +49,10 @@ public class BookingService(
             return false;
         }
 
-        if (!flight.AddPassenger(passenger))
-        {
-            financialService.ProcessRefund(passenger, ticket.Money);
-            passenger.RemoveTicket(ticket);
-            return false;
-        }
+        if (flight.AddPassenger(passenger)) return true;
+        financialService.ProcessRefund(passenger, ticket.Money);
+        passenger.RemoveTicket(ticket);
+        return false;
 
-        return true;
     }
 }

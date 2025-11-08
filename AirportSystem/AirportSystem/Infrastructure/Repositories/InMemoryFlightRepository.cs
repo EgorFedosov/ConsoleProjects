@@ -7,8 +7,7 @@ public class InMemoryFlightRepository : IFlightRepository
 {
     private readonly List<IFlight> _flights = [];
 
-    public IFlight?
-        GetById(Guid id)
+    public IFlight? GetById(Guid id)
     {
         return _flights.FirstOrDefault(f => f.FlightId == id);
     }

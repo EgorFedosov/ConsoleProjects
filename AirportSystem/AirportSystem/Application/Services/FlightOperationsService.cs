@@ -9,7 +9,7 @@ public class FlightOperationsService(IFlightRepository flightRepository) : IFlig
     public bool DepartFlight(Guid flightId)
     {
         var flight = flightRepository.GetById(flightId);
-        if (flight == null || flight.Status != FlightStatus.Scheduled)
+        if (flight is not { Status: FlightStatus.Scheduled })
         {
             return false;
         }
